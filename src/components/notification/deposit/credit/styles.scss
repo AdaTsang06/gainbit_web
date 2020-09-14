@@ -1,0 +1,161 @@
+@import "../../../../css/constants.scss";
+
+$labelWidth: 180px;
+
+.crypto {
+  padding: 0 30px 20px;
+
+  [class^="action"] {
+    justify-content: flex-start;
+    margin-left: $labelWidth;
+  }
+
+  [disabled] {
+    cursor: not-allowed;
+  }
+
+  &_amount_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    .dollar_icon {
+      position: absolute;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 30px;
+      height: 100%;
+      border: 1px solid #c4c7d0;
+    }
+
+    [class^="render_field"] {
+      [class^="input_field"] {
+        input {
+          padding-left: 30px;
+        }
+      }
+      margin-bottom: 0;
+
+      > span {
+        width: $labelWidth;
+      }
+
+      > div {
+        margin-left: 0;
+      }
+    }
+    .birth_item {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      span {
+        width: 180px;
+      }
+    }
+  }
+
+  &_transition {
+    font-size: 14px;
+    margin-left: $labelWidth;
+    margin-bottom: 30px;
+    color: #606060;
+  }
+
+  &_form_item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+
+    > span {
+      width: $labelWidth;
+      &:nth-child(2n) {
+        min-width: 220px;
+      }
+    }
+    .fee_tip {
+      min-width: 400px;
+      font-size: 14px;
+      color: #868686;
+    }
+  }
+  .credit_modal_title {
+    display: flex;
+    align-items: center;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    .img_con {
+      width: 20px;
+      height: 20px;
+      img {
+        max-width: 60%;
+      }
+    }
+  }
+}
+[class="confirm_modal_title_bt"] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333333;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+  border-bottom: 1px solid #dddddd;
+  [class="img_con"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 20px;
+    height: 40px;
+    img {
+      max-width: 60%;
+    }
+  }
+}
+[class="confirm_modal_con_bt"] {
+  padding: 20px 20px 0 20px;
+  span {
+    display: block;
+    font-size: 16px;
+    color: #868686;
+  }
+}
+[class="confirm_modal_action_bt"] {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  button {
+    padding: 0 80px;
+  }
+  input {
+    padding: 0 80px;
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 32px;
+    color: #fff;
+    background-color: #1890ff;
+    border-color: #1890ff;
+  }
+}
+
+.crypto_card_warning {
+  margin-top: 30px;
+  color: #868686;
+  font-family: "PingFang SC", “Segoe UI”, SegoeUI, “Microsoft YaHei”, 微软雅黑,
+    “Hiragino Sans GB”, “Heiti SC”, "Helvetica Neue", "Helvetica", "Arial",
+    sans-serif;
+  font-size: 14px;
+  line-height: 2;
+  white-space: pre-wrap;
+}

@@ -1,0 +1,20 @@
+.success {
+  z-index: 1000;
+  background: #fff;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 14px;
+  max-width: 300px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+  line-height: 20px;
+  transition: all 0.3s;
+  display: flex;
+  justify-content: flex-end;
+  svg {
+    height: 20px;
+    margin-right: 8px;
+    flex-shrink: 0;
+  }
+}

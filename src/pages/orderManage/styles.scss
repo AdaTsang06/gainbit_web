@@ -1,0 +1,31 @@
+@import "../../css/constants.scss";
+
+.myEntrust {
+  background: $contentBg;
+  color: $textColor;
+  .formSearch{
+    border-top: 1px solid $tableBorder;
+  }
+&_label {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   padding:0 30px;
+ [class*="switch_bar"] {
+  border-bottom: 0!important;
+ }
+
+}
+&_label_ac{
+  justify-content: center;
+}
+
+.table_box{
+  padding: 26px 13px 50px 30px;
+  [class*="table_content"]::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+}
+

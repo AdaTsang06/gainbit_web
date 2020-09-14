@@ -1,0 +1,157 @@
+@import "../../css/datepicker.scss";
+@import "../../css/constants.scss";
+
+.button {
+  padding: 3px 30px;
+  height: 40px;
+  border-radius: 3px;
+
+  &[disabled] {
+    background: #b7b7b7;
+    cursor: not-allowed;
+  }
+
+  &:last-child {
+    margin-left: 20px;
+  }
+}
+
+.action {
+  display: flex;
+  padding-top: 20px;
+}
+
+.render_error_field {
+  input,
+  textarea,
+  [class*="select_value"] {
+    border-color: red !important;
+  }
+}
+
+.render_field {
+  /*display: flex;*/
+  /*align-items: center;*/
+  /*justify-content: space-between;*/
+  margin-bottom: 20px;
+  color: #fff;
+  >span{font-size: 14px;color: #8F9FC5;}
+
+  .input_field,.ckInput_field{
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-width: 120px;
+    width:100%;
+
+    a {
+      font-family: "Roboto", sans-serif;
+      color: $primaryColor;
+    }
+
+    input[type="checkbox"],input[type="radio"] {
+      margin-right: 5px;
+    }
+
+    input[type="text"],input[type="password"]{
+      width: 100%;
+      height: 40px;
+      background: transparent;
+      color: #fff;
+      font-size: 14px;
+      padding: 0 10px;
+      outline:none;
+      border:1px solid #374A72;
+      &[disabled] {
+        cursor: not-allowed;
+      }
+      &:focus{
+        outline:none;
+        border:1px solid $primaryColor;
+      }
+    }
+
+    textarea {
+      width: 100%;
+      max-width: 100%;
+      min-height: 120px;
+      padding: 10px;
+      border-radius: 4px;
+      border: solid 1px #374A72;
+      outline: none;color: #fff;font-size: 14px;
+      background-color: transparent;
+      &:focus{
+        outline:none;
+        border:1px solid $primaryColor;
+      }
+    }
+
+    [class*="select_value"] {
+      height: 40px;
+      border-radius: 4px;
+      background: #213153;
+      color: #fff;
+      border: solid 1px #c4c7d0;
+      font-size: 14px;
+    }
+
+    [class*="select_container"] {
+      border: solid 1px #c4c7d0;
+    }
+
+    [class*="select_item"] {
+      background: #213153;
+      color: #000;
+    }
+
+    [class*="select_item"]:hover {
+      background: #213153;
+      color: $primaryColor;
+    }
+
+    .tip {
+      position: absolute;
+      top: 42px;
+      left: 0;
+      font-size: 12px;
+      color: $errorColor;
+      >span{color: $errorColor;}
+    }
+  }
+  .ckInput_field {
+    margin-left:0;
+  }
+  .eye{
+    width: 45px;
+    height: 38px;
+    top: 1px;
+    right: 0;
+    line-height: 45px;
+    padding-bottom: 0;
+    text-align: center;
+    cursor: pointer;
+    z-index: 99;
+    position:absolute;
+     >img{width: 15px;height: 15px;}
+  }
+  .ck_list{
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: column;
+    position: relative;
+    .other_input{
+      background: transparent;
+      border:none;
+      border-bottom: 1px solid #ccc;
+      margin-left: 10px;
+      color: #fff;
+    }
+    .error_tip{
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      font-size: 12px;
+      color: #DC5230;
+    }
+  }
+}

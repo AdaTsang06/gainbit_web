@@ -1,0 +1,134 @@
+@import "./css/swiper.scss";
+html, body {
+    width: 100%;
+    height: 100%;
+    font-family: "PingFang SC", “Segoe UI”, SegoeUI, “Microsoft YaHei”, 微软雅黑,
+      “Hiragino Sans GB”, “Heiti SC”, "Helvetica Neue", "Helvetica", "Arial",
+      sans-serif;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+}
+ 
+dl,
+dt,
+dd,
+a {
+  text-decoration: none;
+}
+
+h5 {
+  font-weight: normal;
+  font-size: inherit;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a {
+  color: inherit;
+  cursor: pointer;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+
+input {
+  outline: none;
+}
+
+.app {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.ie-must-die {
+  width: 100%;
+  height: 500px;
+}
+
+.ie-container {
+  width: 1200px;
+  margin: 130px auto 0;
+  text-align: center;
+}
+
+.ie-container h3 {
+  color: #1ea6c3;
+  font-size: 22px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.ie-container p {
+  font-size: 16px;
+  color: #666666;
+  line-height: 40px;
+  margin-bottom: 30px;
+}
+
+.link-browser a {
+  display: inline-block;
+}
+
+.link-browser img {
+  margin-bottom: 10px;
+}
+
+.link-last-item {
+  margin-left: 120px;
+}
+
+.kf5-support-chat {
+  display: none;
+}
+
+.kf5-chatSupport-btn {
+  bottom: 170px !important;
+}
+.swiper-container {
+  width: 100%;
+}
+#Home .swiper-container{
+  overflow-y:visible;
+}
+.banner_box .swiper-container-horizontal>.swiper-pagination-bullets{
+  bottom: 170px;
+}

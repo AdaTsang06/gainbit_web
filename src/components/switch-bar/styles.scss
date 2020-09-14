@@ -1,0 +1,37 @@
+@import "../../css/constants.scss";
+
+.switch_bar {
+  position: relative!important;
+  display: flex;
+  white-space: nowrap;
+  font-size: 16px;
+  border-bottom: 1px solid $mainBg!important;
+  height: 40px!important;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    margin-right: 50px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  >span {
+    display: flex;
+    white-space: nowrap;
+    /*float:right;*/
+   position: absolute;
+   right: 10px;
+    >img {
+       width: 16px;
+       height: 12px;
+       margin: 12px 8px;
+       cursor: pointer;
+     }
+  }
+}
+

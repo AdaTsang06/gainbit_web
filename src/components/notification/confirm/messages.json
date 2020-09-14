@@ -1,0 +1,47 @@
+{
+  "zh-CN": {
+    "symbol": "交易对: {symbol}",
+    "orderType": "交易类型: ",
+    "price": "价格: {price}",
+    "quantity": "数量: {quantity}",
+    "cancel": "取消",
+    "confirm": "确认",
+    "buy": "买入",
+    "sell": "卖出",
+    "limit": "限价单",
+    "market": "市价单",
+    "stop": "止损单",
+    "cancel_tip": "提示",
+    "cancel_all": "撤销所有委托?"
+  },
+  "en-US": {
+    "symbol": "Trading Pair: {symbol}",
+    "orderType": "Order Type: ",
+    "price": "Price: {price}",
+    "quantity": "Quantity: {quantity}",
+    "cancel": "cancel",
+    "confirm": "confirm",
+    "buy": "Buy",
+    "sell": "Sell",
+    "limit": "LIMIT",
+    "market": "MARKET",
+    "stop": "STOP",
+    "cancel_tip": "Tip",
+    "cancel_all": "Cancel all orders?"
+  },
+  "zh-TW": {
+    "symbol": "交易對: {symbol}",
+    "orderType": "交易類型: ",
+    "price": "價格: {price}",
+    "quantity": "數量: {quantity}",
+    "cancel": "取消",
+    "confirm": "確認",
+    "buy": "買入",
+    "sell": "賣出",
+    "limit": "限價單",
+    "market": "市價单",
+    "stop": "止損单",
+    "cancel_tip": "提示",
+    "cancel_all": "撤銷所有委託?"
+  }
+}

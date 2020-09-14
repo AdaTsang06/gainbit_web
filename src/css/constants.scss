@@ -1,0 +1,112 @@
+$transition: 0.3s;
+$container-minWidth: 1280px;
+$container-maxWidth: 1650px;
+$headerHeight: 110px;
+$headerTradeHeight: 66px;
+$footerHeight: 190px;
+$sidebarWidth: 342px;
+$marketHeaderHeight:60px;
+
+$contentBg: #172441;
+$mainBg: #213153;
+$fzContentBg: #1e2d4d;
+$errorColor: #DC5230;
+$borderColorIn: #364E66; 
+$borderColorOut: #e2e2e2; 
+$normalColor1: #010101; 
+$normalColor2: #b0b0b0; 
+$normalColor3: #999; 
+$normalColor4:#172441;
+$b000: #000; 
+$fff: #fff; 
+$eee: #eee; 
+$primaryColor: #ffbe00;
+$sellColor: #ff4E4E;
+$buyColor: #00C998;
+$textColor: #fff;
+$textColorP: #405F80;
+$tabColor:#9bacd2;
+$tableThColor:#9bacd2;
+$lineColor:#294666;
+$chartHeight: 465px;
+$orderBookHeaderHeight: 40px;
+$tableBorder:#2d4066;
+$headerColor:#fff;
+@mixin container {
+  width: 100%;
+  max-width: $container-maxWidth;
+  min-width: $container-minWidth;
+  margin: 0 auto;
+  position: relative;
+  min-height: calc(100vh - #{$headerHeight} - 200px);
+  background: $contentBg;
+  // margin-bottom: 50px;
+}
+
+@mixin btn {
+  box-sizing: border-box;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  outline: none;
+}
+
+
+:global(input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill) {
+  background-color: transparent !important;
+  background-image: none !important;
+  color: rgb(0, 0, 0) !important;
+}
+
+.formSearch {
+  color: $tabColor;
+  font-size: 14px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 20px 30px;
+  border-bottom: 5px solid $mainBg;
+
+&_item{
+   display: flex;
+   align-items: flex-start;
+   justify-content: flex-start;
+  >span{
+    height: 30px;line-height: 30px;display: inline-block;margin-right: 10px;
+  >input{
+    width: 140px;height: 30px;line-height: 30px;
+    background: #2A3C60;
+    border: 1px solid #3E4E72;
+    border-radius: 2px;
+    color: #fff;
+    padding-left: 30px;
+    background: #2A3C60 5px center no-repeat;
+  }
+}
+  [class*="select_value"] {
+    height: 30px;
+    color: $tabColor;
+    background: #2A3C60;
+    border: 1px solid #3E4E72;
+    border-radius: 2px;
+    margin-right:30px;
+    svg {
+      margin-top: -7px;
+      right: 4px;
+    }
+  }
+}
+[class*="action"]{
+  padding-top:0;
+>button[type="submit"]{
+  padding: 0 26px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+  margin-left: 20px;
+  background: $primaryColor;
+}
+&:before{display: none;}
+}
+}
+

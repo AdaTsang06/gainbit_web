@@ -1,0 +1,2084 @@
+{
+  "zh-CN": {
+    "CN": {
+      "name": "中国大陆",
+      "code": "86"
+    },
+    "HK": {
+      "name": "中国香港",
+      "code": "852"
+    },
+    "MO": {
+      "name": "中国澳门",
+      "code": "853"
+    },
+    "TW": {
+      "name": "中国台湾",
+      "code": "886"
+    },
+    "AD": {
+      "name": "安道尔共和国",
+      "code": "376"
+    },
+    "AI": {
+      "name": "安圭拉岛",
+      "code": "1264"
+    },
+    "AL": {
+      "name": "阿尔巴尼亚",
+      "code": "355"
+    },
+    "AM": {
+      "name": "亚美尼亚",
+      "code": "374"
+    },
+    "AO": {
+      "name": "安哥拉",
+      "code": "244"
+    },
+    "AR": {
+      "name": "阿根廷",
+      "code": "54"
+    },
+    "AT": {
+      "name": "奥地利",
+      "code": "43"
+    },
+    "AU": {
+      "name": "澳大利亚",
+      "code": "61"
+    },
+    "AZ": {
+      "name": "阿塞拜疆",
+      "code": "994"
+    },
+    "DZ": {
+      "name": "阿尔及利亚",
+      "code": "213"
+    },
+    "AG": {
+      "name": "安提瓜和巴布达",
+      "code": "1268"
+    },
+    "BE": {
+      "name": "比利时",
+      "code": "32"
+    },
+    "BO": {
+      "name": "玻利维亚",
+      "code": "591"
+    },
+    "BG": {
+      "name": "保加利亚",
+      "code": "359"
+    },
+    "BH": {
+      "name": "巴林",
+      "code": "973"
+    },
+    "BI": {
+      "name": "布隆迪",
+      "code": "257"
+    },
+    "BJ": {
+      "name": "贝宁",
+      "code": "229"
+    },
+    "BB": {
+      "name": "巴巴多斯",
+      "code": "1246"
+    },
+    "BM": {
+      "name": "百慕大群岛",
+      "code": "1441"
+    },
+    "BN": {
+      "name": "文莱",
+      "code": "673"
+    },
+    "BD": {
+      "name": "孟加拉国",
+      "code": "880"
+    },
+    "BR": {
+      "name": "巴西",
+      "code": "55"
+    },
+    "BS": {
+      "name": "巴哈马",
+      "code": "1242"
+    },
+    "BW": {
+      "name": "博茨瓦纳",
+      "code": "267"
+    },
+    "BY": {
+      "name": "白俄罗斯",
+      "code": "375"
+    },
+    "BZ": {
+      "name": "伯利兹",
+      "code": "501"
+    },
+    "BF": {
+      "name": "布基纳法索",
+      "code": "226"
+    },
+    "CR": {
+      "name": "哥斯达黎加",
+      "code": "506"
+    },
+    "CG": {
+      "name": "刚果",
+      "code": "242"
+    },
+    "CK": {
+      "name": "库克群岛",
+      "code": "682"
+    },
+    "CL": {
+      "name": "智利",
+      "code": "56"
+    },
+    "CM": {
+      "name": "喀麦隆",
+      "code": "237"
+    },
+    "CO": {
+      "name": "哥伦比亚",
+      "code": "57"
+    },
+    "CF": {
+      "name": "中非共和国",
+      "code": "236"
+    },
+    "CS": {
+      "name": "捷克",
+      "code": "420"
+    },
+    "CU": {
+      "name": "古巴",
+      "code": "53"
+    },
+    "CY": {
+      "name": "塞浦路斯",
+      "code": "357"
+    },
+    "CZ": {
+      "name": "捷克",
+      "code": "420"
+    },
+    "TD": {
+      "name": "乍得",
+      "code": "235"
+    },
+    "CA": {
+      "name": "加拿大",
+      "code": "1"
+    },
+    "DJ": {
+      "name": "吉布提",
+      "code": "253"
+    },
+    "DK": {
+      "name": "丹麦",
+      "code": "45"
+    },
+    "DO": {
+      "name": "多米尼加共和国",
+      "code": "1890"
+    },
+    "EC": {
+      "name": "厄瓜多尔",
+      "code": "593"
+    },
+    "EG": {
+      "name": "埃及",
+      "code": "20"
+    },
+    "ET": {
+      "name": "埃塞俄比亚",
+      "code": "251"
+    },
+    "EE": {
+      "name": "爱沙尼亚",
+      "code": "372"
+    },
+    "SV": {
+      "name": "萨尔瓦多",
+      "code": "503"
+    },
+    "PF": {
+      "name": "法属玻利尼西亚",
+      "code": "689"
+    },
+    "FJ": {
+      "name": "斐济",
+      "code": "679"
+    },
+    "FR": {
+      "name": "法国",
+      "code": "33"
+    },
+    "FI": {
+      "name": "芬兰",
+      "code": "358"
+    },
+    "GF": {
+      "name": "法属圭亚那",
+      "code": "594"
+    },
+    "GD": {
+      "name": "格林纳达",
+      "code": "1809"
+    },
+    "GE": {
+      "name": "格鲁吉亚",
+      "code": "995"
+    },
+    "GA": {
+      "name": "加蓬",
+      "code": "241"
+    },
+    "GH": {
+      "name": "加纳",
+      "code": "233"
+    },
+    "GI": {
+      "name": "直布罗陀",
+      "code": "350"
+    },
+    "GM": {
+      "name": "冈比亚",
+      "code": "220"
+    },
+    "GN": {
+      "name": "几内亚",
+      "code": "224"
+    },
+    "GR": {
+      "name": "希腊",
+      "code": "30"
+    },
+    "GT": {
+      "name": "危地马拉",
+      "code": "502"
+    },
+    "GU": {
+      "name": "关岛",
+      "code": "1671"
+    },
+    "DE": {
+      "name": "德国",
+      "code": "49"
+    },
+    "HT": {
+      "name": "海地",
+      "code": "509"
+    },
+    "HU": {
+      "name": "匈牙利",
+      "code": "36"
+    },
+    "HN": {
+      "name": "洪都拉斯",
+      "code": "504"
+    },
+    "ID": {
+      "name": "印度尼西亚",
+      "code": "62"
+    },
+    "IE": {
+      "name": "爱尔兰",
+      "code": "353"
+    },
+    "IL": {
+      "name": "以色列",
+      "code": "972"
+    },
+    "IN": {
+      "name": "印度",
+      "code": "91"
+    },
+    "IS": {
+      "name": "冰岛",
+      "code": "354"
+    },
+    "IT": {
+      "name": "意大利",
+      "code": "39"
+    },
+    "JM": {
+      "name": "牙买加",
+      "code": "1876"
+    },
+    "JO": {
+      "name": "约旦",
+      "code": "962"
+    },
+    "JP": {
+      "name": "日本",
+      "code": "81"
+    },
+    "KE": {
+      "name": "肯尼亚",
+      "code": "254"
+    },
+    "KG": {
+      "name": "吉尔吉斯坦",
+      "code": "331"
+    },
+    "KH": {
+      "name": "柬埔寨",
+      "code": "855"
+    },
+    "KR": {
+      "name": "韩国",
+      "code": "82"
+    },
+    "KW": {
+      "name": "科威特",
+      "code": "965"
+    },
+    "KZ": {
+      "name": "哈萨克斯坦",
+      "code": "7"
+    },
+    "LV": {
+      "name": "拉脱维亚",
+      "code": "371"
+    },
+    "LY": {
+      "name": "利比亚",
+      "code": "218"
+    },
+    "LU": {
+      "name": "卢森堡",
+      "code": "352"
+    },
+    "LB": {
+      "name": "黎巴嫩",
+      "code": "961"
+    },
+    "LT": {
+      "name": "立陶宛",
+      "code": "370"
+    },
+    "LI": {
+      "name": "列支敦士登",
+      "code": "423"
+    },
+    "LS": {
+      "name": "莱索托",
+      "code": "266"
+    },
+    "LR": {
+      "name": "利比里亚",
+      "code": "231"
+    },
+    "MW": {
+      "name": "马拉维",
+      "code": "265"
+    },
+    "MC": {
+      "name": "摩纳哥",
+      "code": "377"
+    },
+    "MD": {
+      "name": "摩尔多瓦",
+      "code": "373"
+    },
+    "MG": {
+      "name": "马达加斯加",
+      "code": "261"
+    },
+    "ML": {
+      "name": "马里",
+      "code": "223"
+    },
+    "MN": {
+      "name": "蒙古",
+      "code": "976"
+    },
+    "MA": {
+      "name": "摩洛哥",
+      "code": "212"
+    },
+    "MS": {
+      "name": "蒙特塞拉特岛",
+      "code": "1664"
+    },
+    "MT": {
+      "name": "马耳他",
+      "code": "356"
+    },
+    "MU": {
+      "name": "毛里求斯",
+      "code": "230"
+    },
+    "MV": {
+      "name": "马尔代夫",
+      "code": "960"
+    },
+    "MX": {
+      "name": "墨西哥",
+      "code": "52"
+    },
+    "MY": {
+      "name": "马来西亚",
+      "code": "60"
+    },
+    "MZ": {
+      "name": "莫桑比克",
+      "code": "258"
+    },
+    "NG": {
+      "name": "尼日利亚",
+      "code": "234"
+    },
+    "NA": {
+      "name": "纳米比亚",
+      "code": "264"
+    },
+    "NE": {
+      "name": "尼日尔",
+      "code": "977"
+    },
+    "NI": {
+      "name": "尼加拉瓜",
+      "code": "505"
+    },
+    "NL": {
+      "name": "荷兰",
+      "code": "31"
+    },
+    "NO": {
+      "name": "挪威",
+      "code": "47"
+    },
+    "NP": {
+      "name": "尼泊尔",
+      "code": "977"
+    },
+    "NR": {
+      "name": "瑙鲁",
+      "code": "674"
+    },
+    "NZ": {
+      "name": "新西兰",
+      "code": "64"
+    },
+    "OM": {
+      "name": "阿曼",
+      "code": "968"
+    },
+    "PY": {
+      "name": "巴拉圭",
+      "code": "595"
+    },
+    "BL": {
+      "name": "巴勒斯坦",
+      "code": "970"
+    },
+    "PA": {
+      "name": "巴拿马",
+      "code": "507"
+    },
+    "PE": {
+      "name": "秘鲁",
+      "code": "51"
+    },
+    "PH": {
+      "name": "菲律宾",
+      "code": "63"
+    },
+    "PK": {
+      "name": "巴基斯坦",
+      "code": "92"
+    },
+    "PL": {
+      "name": "波兰",
+      "code": "48"
+    },
+    "PR": {
+      "name": "波多黎各",
+      "code": "1787"
+    },
+    "PT": {
+      "name": "葡萄牙",
+      "code": "351"
+    },
+    "QA": {
+      "name": "卡塔尔",
+      "code": "974"
+    },
+    "KT": {
+      "name": "科特迪瓦共和国",
+      "code": "225"
+    },
+    "RU": {
+      "name": "俄罗斯",
+      "code": "7"
+    },
+    "RO": {
+      "name": "罗马尼亚",
+      "code": "40"
+    },
+    "ES": {
+      "name": "西班牙",
+      "code": "34"
+    },
+    "LK": {
+      "name": "斯里兰卡",
+      "code": "94"
+    },
+    "LC": {
+      "name": "圣卢西亚",
+      "code": "1758"
+    },
+    "VC": {
+      "name": "圣文森特岛",
+      "code": "1784"
+    },
+    "SA": {
+      "name": "沙特阿拉伯",
+      "code": "966"
+    },
+    "SB": {
+      "name": "所罗门群岛",
+      "code": "677"
+    },
+    "SC": {
+      "name": "塞舌尔",
+      "code": "248"
+    },
+    "SD": {
+      "name": "苏丹",
+      "code": "249"
+    },
+    "SE": {
+      "name": "瑞典",
+      "code": "46"
+    },
+    "SG": {
+      "name": "新加坡",
+      "code": "65"
+    },
+    "SI": {
+      "name": "斯洛文尼亚",
+      "code": "386"
+    },
+    "SK": {
+      "name": "斯洛伐克",
+      "code": "421"
+    },
+    "SL": {
+      "name": "塞拉利昂",
+      "code": "232"
+    },
+    "SM": {
+      "name": "圣马力诺",
+      "code": "378"
+    },
+    "SN": {
+      "name": "塞内加尔",
+      "code": "221"
+    },
+    "SO": {
+      "name": "索马里",
+      "code": "252"
+    },
+    "SR": {
+      "name": "苏里南",
+      "code": "597"
+    },
+    "ST": {
+      "name": "圣多美和普林西比",
+      "code": "239"
+    },
+    "CH": {
+      "name": "瑞士",
+      "code": "41"
+    },
+    "SZ": {
+      "name": "斯威士兰",
+      "code": "268"
+    },
+    "ZA": {
+      "name": "南非",
+      "code": "27"
+    },
+    "TG": {
+      "name": "多哥",
+      "code": "228"
+    },
+    "TJ": {
+      "name": "塔吉克斯坦",
+      "code": "992"
+    },
+    "TM": {
+      "name": "土库曼斯坦",
+      "code": "993"
+    },
+    "TN": {
+      "name": "突尼斯",
+      "code": "216"
+    },
+    "TO": {
+      "name": "汤加",
+      "code": "676"
+    },
+    "TR": {
+      "name": "土耳其",
+      "code": "90"
+    },
+    "TT": {
+      "name": "特立尼达和多巴哥",
+      "code": "1809"
+    },
+    "TZ": {
+      "name": "坦桑尼亚",
+      "code": "255"
+    },
+    "TH": {
+      "name": "泰国",
+      "code": "66"
+    },
+    "US": {
+      "name": "美国",
+      "code": "1"
+    },
+    "UA": {
+      "name": "乌克兰",
+      "code": "380"
+    },
+    "UY": {
+      "name": "乌拉圭",
+      "code": "598"
+    },
+    "UZ": {
+      "name": "乌兹别克斯坦",
+      "code": "233"
+    },
+    "GB": {
+      "name": "英国",
+      "code": "44"
+    },
+    "AE": {
+      "name": "阿拉伯联合酋长国",
+      "code": "971"
+    },
+    "VN": {
+      "name": "越南",
+      "code": "84"
+    },
+    "VE": {
+      "name": "委内瑞拉",
+      "code": "58"
+    },
+    "YU": {
+      "name": "南斯拉夫",
+      "code": "381"
+    },
+    "ZM": {
+      "name": "赞比亚",
+      "code": "260"
+    },
+    "ZR": {
+      "name": "扎伊尔",
+      "code": "243"
+    },
+    "ZW": {
+      "name": "津巴布韦",
+      "code": "263"
+    }
+  },
+  "en-US": {
+    "CN": {
+      "name": "China",
+      "code": "86"
+    },
+    "HK": {
+      "name": "Hongkong",
+      "code": "852"
+    },
+    "MO": {
+      "name": "Macao",
+      "code": "853"
+    },
+    "TW": {
+      "name": "Taiwan",
+      "code": "886"
+    },
+    "AD": {
+      "name": "Andorra",
+      "code": "376"
+    },
+    "AI": {
+      "name": "Anguilla",
+      "code": "1264"
+    },
+    "AL": {
+      "name": "Albania",
+      "code": "355"
+    },
+    "AM": {
+      "name": "Armenia",
+      "code": "374"
+    },
+    "AO": {
+      "name": "Angola",
+      "code": "244"
+    },
+    "AR": {
+      "name": "Argentina",
+      "code": "54"
+    },
+    "AT": {
+      "name": "Austria",
+      "code": "43"
+    },
+    "AU": {
+      "name": "Australia",
+      "code": "61"
+    },
+    "AZ": {
+      "name": "Azerbaijan",
+      "code": "994"
+    },
+    "DZ": {
+      "name": "Algeria",
+      "code": "213"
+    },
+    "AG": {
+      "name": "Antigua and Barbuda",
+      "code": "1268"
+    },
+    "BE": {
+      "name": "Belgium",
+      "code": "32"
+    },
+    "BO": {
+      "name": "Bolivia",
+      "code": "591"
+    },
+    "BG": {
+      "name": "Bulgaria",
+      "code": "359"
+    },
+    "BH": {
+      "name": "Bahrain",
+      "code": "973"
+    },
+    "BI": {
+      "name": "Burundi",
+      "code": "257"
+    },
+    "BJ": {
+      "name": "Benin",
+      "code": "229"
+    },
+    "BB": {
+      "name": "Barbados",
+      "code": "1246"
+    },
+    "BM": {
+      "name": "Bermuda Is.",
+      "code": "1441"
+    },
+    "BN": {
+      "name": "Brunei",
+      "code": "673"
+    },
+    "BD": {
+      "name": "Bangladesh",
+      "code": "880"
+    },
+    "BR": {
+      "name": "Brazil",
+      "code": "55"
+    },
+    "BS": {
+      "name": "Bahamas",
+      "code": "1242"
+    },
+    "BW": {
+      "name": "Botswana",
+      "code": "267"
+    },
+    "BY": {
+      "name": "Belarus",
+      "code": "375"
+    },
+    "BZ": {
+      "name": "Belize",
+      "code": "501"
+    },
+    "BF": {
+      "name": "Burkina-faso",
+      "code": "226"
+    },
+    "CR": {
+      "name": "Costa Rica",
+      "code": "506"
+    },
+    "CG": {
+      "name": "Congo",
+      "code": "242"
+    },
+    "CK": {
+      "name": "Cook Is.",
+      "code": "682"
+    },
+    "CL": {
+      "name": "Chile",
+      "code": "56"
+    },
+    "CM": {
+      "name": "Cameroon",
+      "code": "237"
+    },
+    "CO": {
+      "name": "Colombia",
+      "code": "57"
+    },
+    "CF": {
+      "name": "Central African Republic",
+      "code": "236"
+    },
+    "CS": {
+      "name": "Czech",
+      "code": "420"
+    },
+    "CU": {
+      "name": "Cuba",
+      "code": "53"
+    },
+    "CY": {
+      "name": "Cyprus",
+      "code": "357"
+    },
+    "CZ": {
+      "name": "Czech Republic ",
+      "code": "420"
+    },
+    "TD": {
+      "name": "Chad",
+      "code": "235"
+    },
+    "CA": {
+      "name": "Canada",
+      "code": "1"
+    },
+    "DJ": {
+      "name": "Djibouti",
+      "code": "253"
+    },
+    "DK": {
+      "name": "Denmark",
+      "code": "45"
+    },
+    "DO": {
+      "name": "Dominica Rep.",
+      "code": "1890"
+    },
+    "EC": {
+      "name": "Ecuador",
+      "code": "593"
+    },
+    "EG": {
+      "name": "Egypt",
+      "code": "20"
+    },
+    "ET": {
+      "name": "Ethiopia",
+      "code": "251"
+    },
+    "EE": {
+      "name": "Estonia",
+      "code": "372"
+    },
+    "SV": {
+      "name": "EI Salvador",
+      "code": "503"
+    },
+    "PF": {
+      "name": "French Polynesia",
+      "code": "689"
+    },
+    "FJ": {
+      "name": "Fiji",
+      "code": "679"
+    },
+    "FR": {
+      "name": "France",
+      "code": "33"
+    },
+    "FI": {
+      "name": "Finland",
+      "code": "358"
+    },
+    "GF": {
+      "name": "French Guiana",
+      "code": "594"
+    },
+    "GD": {
+      "name": "Grenada",
+      "code": "1809"
+    },
+    "GE": {
+      "name": "Georgia ",
+      "code": "995"
+    },
+    "GA": {
+      "name": "Gabon",
+      "code": "241"
+    },
+    "GH": {
+      "name": "Ghana",
+      "code": "233"
+    },
+    "GI": {
+      "name": "Gibraltar",
+      "code": "350"
+    },
+    "GM": {
+      "name": "Gambia",
+      "code": "220"
+    },
+    "GN": {
+      "name": "Guinea",
+      "code": "224"
+    },
+    "GR": {
+      "name": "Greece",
+      "code": "30"
+    },
+    "GT": {
+      "name": "Guatemala",
+      "code": "502"
+    },
+    "GU": {
+      "name": "Guam",
+      "code": "1671"
+    },
+    "DE": {
+      "name": "Germany ",
+      "code": "49"
+    },
+    "HT": {
+      "name": "Haiti",
+      "code": "509"
+    },
+    "HU": {
+      "name": "Hungary",
+      "code": "36"
+    },
+    "HN": {
+      "name": "Honduras",
+      "code": "504"
+    },
+    "ID": {
+      "name": "Indonesia",
+      "code": "62"
+    },
+    "IE": {
+      "name": "Ireland",
+      "code": "353"
+    },
+    "IL": {
+      "name": "Israel",
+      "code": "972"
+    },
+    "IN": {
+      "name": "India",
+      "code": "91"
+    },
+    "IS": {
+      "name": "Iceland",
+      "code": "354"
+    },
+    "IT": {
+      "name": "Italy",
+      "code": "39"
+    },
+    "JM": {
+      "name": "Jamaica",
+      "code": "1876"
+    },
+    "JO": {
+      "name": "Jordan",
+      "code": "962"
+    },
+    "JP": {
+      "name": "Japan",
+      "code": "81"
+    },
+    "KE": {
+      "name": "Kenya",
+      "code": "254"
+    },
+    "KG": {
+      "name": "Kyrgyzstan ",
+      "code": "331"
+    },
+    "KH": {
+      "name": "Kampuchea (Cambodia )",
+      "code": "855"
+    },
+    "KR": {
+      "name": "Korea",
+      "code": "82"
+    },
+    "KW": {
+      "name": "Kuwait",
+      "code": "965"
+    },
+    "KZ": {
+      "name": "Kazakstan",
+      "code": "7"
+    },
+    "LV": {
+      "name": "Latvia ",
+      "code": "371"
+    },
+    "LY": {
+      "name": "Libya",
+      "code": "218"
+    },
+    "LU": {
+      "name": "Luxembourg",
+      "code": "352"
+    },
+    "LB": {
+      "name": "Lebanon",
+      "code": "961"
+    },
+    "LT": {
+      "name": "Lithuania",
+      "code": "370"
+    },
+    "LI": {
+      "name": "Liechtenstein",
+      "code": "423"
+    },
+    "LS": {
+      "name": "Lesotho",
+      "code": "266"
+    },
+    "LR": {
+      "name": "Liberia",
+      "code": "231"
+    },
+    "MW": {
+      "name": "Malawi",
+      "code": "265"
+    },
+    "MC": {
+      "name": "Monaco",
+      "code": "377"
+    },
+    "MD": {
+      "name": "Moldova, Republic of ",
+      "code": "373"
+    },
+    "MG": {
+      "name": "Madagascar",
+      "code": "261"
+    },
+    "ML": {
+      "name": "Mali",
+      "code": "223"
+    },
+    "MN": {
+      "name": "Mongolia ",
+      "code": "976"
+    },
+    "MA": {
+      "name": "Morocco",
+      "code": "212"
+    },
+    "MS": {
+      "name": "Montserrat Is",
+      "code": "1664"
+    },
+    "MT": {
+      "name": "Malta",
+      "code": "356"
+    },
+    "MU": {
+      "name": "Mauritius",
+      "code": "230"
+    },
+    "MV": {
+      "name": "Maldives",
+      "code": "960"
+    },
+    "MX": {
+      "name": "Mexico",
+      "code": "52"
+    },
+    "MY": {
+      "name": "Malaysia",
+      "code": "60"
+    },
+    "MZ": {
+      "name": "Mozambique",
+      "code": "258"
+    },
+    "NG": {
+      "name": "Nigeria",
+      "code": "234"
+    },
+    "NA": {
+      "name": "Namibia ",
+      "code": "264"
+    },
+    "NE": {
+      "name": "Niger",
+      "code": "977"
+    },
+    "NI": {
+      "name": "Nicaragua",
+      "code": "505"
+    },
+    "NL": {
+      "name": "Netherlands",
+      "code": "31"
+    },
+    "NO": {
+      "name": "Norway",
+      "code": "47"
+    },
+    "NP": {
+      "name": "Nepal",
+      "code": "977"
+    },
+    "NR": {
+      "name": "Nauru",
+      "code": "674"
+    },
+    "NZ": {
+      "name": "New Zealand",
+      "code": "64"
+    },
+    "OM": {
+      "name": "Oman",
+      "code": "968"
+    },
+    "PY": {
+      "name": "Paraguay",
+      "code": "595"
+    },
+    "BL": {
+      "name": "Palestine",
+      "code": "970"
+    },
+    "PA": {
+      "name": "Panama",
+      "code": "507"
+    },
+    "PE": {
+      "name": "Peru",
+      "code": "51"
+    },
+    "PH": {
+      "name": "Philippines",
+      "code": "63"
+    },
+    "PK": {
+      "name": "Pakistan",
+      "code": "92"
+    },
+    "PL": {
+      "name": "Poland",
+      "code": "48"
+    },
+    "PR": {
+      "name": "Puerto Rico",
+      "code": "1787"
+    },
+    "PT": {
+      "name": "Portugal",
+      "code": "351"
+    },
+    "QA": {
+      "name": "Qatar",
+      "code": "974"
+    },
+    "KT": {
+      "name": "Republic of Ivory Coast",
+      "code": "225"
+    },
+    "RU": {
+      "name": "Russia",
+      "code": "7"
+    },
+    "RO": {
+      "name": "Romania",
+      "code": "40"
+    },
+    "ES": {
+      "name": "Spain",
+      "code": "34"
+    },
+    "LK": {
+      "name": "Sri Lanka",
+      "code": "94"
+    },
+    "LC": {
+      "name": "St.Lucia",
+      "code": "1758"
+    },
+    "VC": {
+      "name": "Saint Vincent",
+      "code": "1784"
+    },
+    "SA": {
+      "name": "Saudi Arabia",
+      "code": "966"
+    },
+    "SB": {
+      "name": "Solomon Is",
+      "code": "677"
+    },
+    "SC": {
+      "name": "Seychelles",
+      "code": "248"
+    },
+    "SD": {
+      "name": "Sudan",
+      "code": "249"
+    },
+    "SE": {
+      "name": "Sweden",
+      "code": "46"
+    },
+    "SG": {
+      "name": "Singapore",
+      "code": "65"
+    },
+    "SI": {
+      "name": "Slovenia",
+      "code": "386"
+    },
+    "SK": {
+      "name": "Slovakia",
+      "code": "421"
+    },
+    "SL": {
+      "name": "Sierra Leone",
+      "code": "232"
+    },
+    "SM": {
+      "name": "San Marino",
+      "code": "378"
+    },
+    "SN": {
+      "name": "Senegal",
+      "code": "221"
+    },
+    "SO": {
+      "name": "Somali",
+      "code": "252"
+    },
+    "SR": {
+      "name": "Suriname",
+      "code": "597"
+    },
+    "ST": {
+      "name": "Sao Tome and Principe",
+      "code": "239"
+    },
+    "CH": {
+      "name": "Switzerland",
+      "code": "41"
+    },
+    "SZ": {
+      "name": "Swaziland",
+      "code": "268"
+    },
+    "ZA": {
+      "name": "South Africa",
+      "code": "27"
+    },
+    "TG": {
+      "name": "Togo",
+      "code": "228"
+    },
+    "TJ": {
+      "name": "Tajikstan",
+      "code": "992"
+    },
+    "TM": {
+      "name": "Turkmenistan ",
+      "code": "993"
+    },
+    "TN": {
+      "name": "Tunisia",
+      "code": "216"
+    },
+    "TO": {
+      "name": "Tonga",
+      "code": "676"
+    },
+    "TR": {
+      "name": "Turkey",
+      "code": "90"
+    },
+    "TT": {
+      "name": "Trinidad and Tobago",
+      "code": "1809"
+    },
+    "TZ": {
+      "name": "Tanzania",
+      "code": "255"
+    },
+    "TH": {
+      "name": "Thailand",
+      "code": "66"
+    },
+    "US": {
+      "name": "United States of America",
+      "code": "1"
+    },
+    "UA": {
+      "name": "Ukraine",
+      "code": "380"
+    },
+    "UY": {
+      "name": "Uruguay",
+      "code": "598"
+    },
+    "UZ": {
+      "name": "Uzbekistan",
+      "code": "233"
+    },
+    "GB": {
+      "name": "United Kingdom",
+      "code": "44"
+    },
+    "AE": {
+      "name": "United Arab Emirates",
+      "code": "971"
+    },
+    "VN": {
+      "name": "Vietnam",
+      "code": "84"
+    },
+    "VE": {
+      "name": "Venezuela",
+      "code": "58"
+    },
+    "YU": {
+      "name": "Yugoslavia",
+      "code": "381"
+    },
+    "ZM": {
+      "name": "Zambia",
+      "code": "260"
+    },
+    "ZR": {
+      "name": "Zaire",
+      "code": "243"
+    },
+    "ZW": {
+      "name": "Zimbabwe",
+      "code": "263"
+    }
+  },
+  "zh-TW": {
+    "CN": {
+      "name": "中國大陸",
+      "code": "86"
+    },
+    "HK": {
+      "name": "中國香港",
+      "code": "852"
+    },
+    "MO": {
+      "name": "中國澳門",
+      "code": "853"
+    },
+    "TW": {
+      "name": "中國台灣",
+      "code": "886"
+    },
+    "AD": {
+      "name": "安道爾共和國",
+      "code": "376"
+    },
+    "AI": {
+      "name": "安圭拉島",
+      "code": "1264"
+    },
+    "AL": {
+      "name": "阿爾巴尼亞",
+      "code": "355"
+    },
+    "AM": {
+      "name": "亞美尼亞",
+      "code": "374"
+    },
+    "AO": {
+      "name": "安哥拉",
+      "code": "244"
+    },
+    "AR": {
+      "name": "阿根廷",
+      "code": "54"
+    },
+    "AT": {
+      "name": "奧地利",
+      "code": "43"
+    },
+    "AU": {
+      "name": "澳大利亞",
+      "code": "61"
+    },
+    "AZ": {
+      "name": "阿塞拜疆",
+      "code": "994"
+    },
+    "DZ": {
+      "name": "阿爾及利亞",
+      "code": "213"
+    },
+    "AG": {
+      "name": "安提瓜和巴布達",
+      "code": "1268"
+    },
+    "BE": {
+      "name": "比利時",
+      "code": "32"
+    },
+    "BO": {
+      "name": "玻利維亞",
+      "code": "591"
+    },
+    "BG": {
+      "name": "保加利亞",
+      "code": "359"
+    },
+    "BH": {
+      "name": "巴林",
+      "code": "973"
+    },
+    "BI": {
+      "name": "布隆迪",
+      "code": "257"
+    },
+    "BJ": {
+      "name": "貝寧",
+      "code": "229"
+    },
+    "BB": {
+      "name": "巴巴多斯",
+      "code": "1246"
+    },
+    "BM": {
+      "name": "百慕大群島",
+      "code": "1441"
+    },
+    "BN": {
+      "name": "文萊",
+      "code": "673"
+    },
+    "BD": {
+      "name": "孟加拉國",
+      "code": "880"
+    },
+    "BR": {
+      "name": "巴西",
+      "code": "55"
+    },
+    "BS": {
+      "name": "巴哈馬",
+      "code": "1242"
+    },
+    "BW": {
+      "name": "博茨瓦納",
+      "code": "267"
+    },
+    "BY": {
+      "name": "白俄羅斯",
+      "code": "375"
+    },
+    "BZ": {
+      "name": "伯利茲",
+      "code": "501"
+    },
+    "BF": {
+      "name": "布基納法索",
+      "code": "226"
+    },
+    "CR": {
+      "name": "哥斯達黎加",
+      "code": "506"
+    },
+    "CG": {
+      "name": "剛果",
+      "code": "242"
+    },
+    "CK": {
+      "name": "庫克群島",
+      "code": "682"
+    },
+    "CL": {
+      "name": "智利",
+      "code": "56"
+    },
+    "CM": {
+      "name": "喀麥隆",
+      "code": "237"
+    },
+    "CO": {
+      "name": "哥倫比亞",
+      "code": "57"
+    },
+    "CF": {
+      "name": "中非共和國",
+      "code": "236"
+    },
+    "CS": {
+      "name": "捷克",
+      "code": "420"
+    },
+    "CU": {
+      "name": "古巴",
+      "code": "53"
+    },
+    "CY": {
+      "name": "塞浦路斯",
+      "code": "357"
+    },
+    "CZ": {
+      "name": "捷克",
+      "code": "420"
+    },
+    "TD": {
+      "name": "乍得",
+      "code": "235"
+    },
+    "CA": {
+      "name": "加拿大",
+      "code": "1"
+    },
+    "DJ": {
+      "name": "吉布提",
+      "code": "253"
+    },
+    "DK": {
+      "name": "丹麥",
+      "code": "45"
+    },
+    "DO": {
+      "name": "多米尼加共和國",
+      "code": "1890"
+    },
+    "EC": {
+      "name": "厄瓜多爾",
+      "code": "593"
+    },
+    "EG": {
+      "name": "埃及",
+      "code": "20"
+    },
+    "ET": {
+      "name": "埃塞俄比亞",
+      "code": "251"
+    },
+    "EE": {
+      "name": "愛沙尼亞",
+      "code": "372"
+    },
+    "SV": {
+      "name": "薩爾瓦多",
+      "code": "503"
+    },
+    "PF": {
+      "name": "法屬玻利尼西亞",
+      "code": "689"
+    },
+    "FJ": {
+      "name": "斐濟",
+      "code": "679"
+    },
+    "FR": {
+      "name": "法國",
+      "code": "33"
+    },
+    "FI": {
+      "name": "芬蘭",
+      "code": "358"
+    },
+    "GF": {
+      "name": "法屬圭亞那",
+      "code": "594"
+    },
+    "GD": {
+      "name": "格林納達",
+      "code": "1809"
+    },
+    "GE": {
+      "name": "格魯吉亞",
+      "code": "995"
+    },
+    "GA": {
+      "name": "加蓬",
+      "code": "241"
+    },
+    "GH": {
+      "name": "加納",
+      "code": "233"
+    },
+    "GI": {
+      "name": "直布羅陀",
+      "code": "350"
+    },
+    "GM": {
+      "name": "岡比亞",
+      "code": "220"
+    },
+    "GN": {
+      "name": "幾內亞",
+      "code": "224"
+    },
+    "GR": {
+      "name": "希臘",
+      "code": "30"
+    },
+    "GT": {
+      "name": "危地馬拉",
+      "code": "502"
+    },
+    "GU": {
+      "name": "關島",
+      "code": "1671"
+    },
+    "DE": {
+      "name": "德國",
+      "code": "49"
+    },
+    "HT": {
+      "name": "海地",
+      "code": "509"
+    },
+    "HU": {
+      "name": "匈牙利",
+      "code": "36"
+    },
+    "HN": {
+      "name": "洪都拉斯",
+      "code": "504"
+    },
+    "ID": {
+      "name": "印度尼西亞",
+      "code": "62"
+    },
+    "IE": {
+      "name": "愛爾蘭",
+      "code": "353"
+    },
+    "IL": {
+      "name": "以色列",
+      "code": "972"
+    },
+    "IN": {
+      "name": "印度",
+      "code": "91"
+    },
+    "IS": {
+      "name": "冰島",
+      "code": "354"
+    },
+    "IT": {
+      "name": "意大利",
+      "code": "39"
+    },
+    "JM": {
+      "name": "牙買加",
+      "code": "1876"
+    },
+    "JO": {
+      "name": "約旦",
+      "code": "962"
+    },
+    "JP": {
+      "name": "日本",
+      "code": "81"
+    },
+    "KE": {
+      "name": "肯尼亞",
+      "code": "254"
+    },
+    "KG": {
+      "name": "吉爾吉斯坦",
+      "code": "331"
+    },
+    "KH": {
+      "name": "柬埔寨",
+      "code": "855"
+    },
+    "KR": {
+      "name": "韓國",
+      "code": "82"
+    },
+    "KW": {
+      "name": "科威特",
+      "code": "965"
+    },
+    "KZ": {
+      "name": "哈薩克斯坦",
+      "code": "7"
+    },
+    "LV": {
+      "name": "拉脫維亞",
+      "code": "371"
+    },
+    "LY": {
+      "name": "利比亞",
+      "code": "218"
+    },
+    "LU": {
+      "name": "盧森堡",
+      "code": "352"
+    },
+    "LB": {
+      "name": "黎巴嫩",
+      "code": "961"
+    },
+    "LT": {
+      "name": "立陶宛",
+      "code": "370"
+    },
+    "LI": {
+      "name": "列支敦士登",
+      "code": "423"
+    },
+    "LS": {
+      "name": "萊索托",
+      "code": " 266"
+    },
+    "LR": {
+      "name": "利比里亞",
+      "code": "231"
+    },
+    "MW": {
+      "name": "馬拉維",
+      "code": "265"
+    },
+    "MC": {
+      "name": "摩納哥",
+      "code": "377"
+    },
+    "MD": {
+      "name": "摩爾多瓦",
+      "code": "373"
+    },
+    "MG": {
+      "name": "馬達加斯加",
+      "code": "261"
+    },
+    "ML": {
+      "name": "馬里",
+      "code": "223"
+    },
+    "MN": {
+      "name": "蒙古",
+      "code": "976"
+    },
+    "MA": {
+      "name": "摩洛哥",
+      "code ": "212"
+    },
+    "MS": {
+      "name": "蒙特塞拉特島",
+      "code": "1664"
+    },
+    "MT": {
+      "name": "馬耳他",
+      "code": "356"
+    },
+    "MU": {
+      "name": "毛里求斯",
+      "code": "230"
+    },
+    "MV": {
+      "name": "馬爾代夫",
+      "code": "960"
+    },
+    "MX": {
+      "name": "墨西哥",
+      "code": "52"
+    },
+    "MY": {
+      "name": "馬來西亞",
+      "code": "60"
+    },
+    "MZ": {
+      "name": "莫桑比克",
+      "code": "258"
+    },
+    "NG": {
+      "name": "尼日利亞",
+      "code": "234"
+    },
+    "NA": {
+      "name": "納米比亞",
+      "code": "264"
+    },
+    "NE": {
+      "name": "尼日爾",
+      "code": "977 "
+    },
+    "NI": {
+      "name": "尼加拉瓜",
+      "code": "505"
+    },
+    "NL": {
+      "name": "荷蘭",
+      "code": "31"
+    },
+    "NO": {
+      "name": "挪威",
+      "code": "47"
+    },
+    "NP": {
+      "name": "尼泊爾",
+      "code": "977"
+    },
+    "NR": {
+      "name": "瑙魯",
+      "code": "674"
+    },
+    "NZ": {
+      "name": "新西蘭",
+      "code": "64"
+    },
+    "OM": {
+      "name": "阿曼",
+      " code": "968"
+    },
+    "PY": {
+      "name": "巴拉圭",
+      "code": "595"
+    },
+    "BL": {
+      "name": "巴勒斯坦",
+      "code": "970"
+    },
+    "PA": {
+      "name": "巴拿馬",
+      "code": "507"
+    },
+    "PE": {
+      "name": "秘魯",
+      "code": "51"
+    },
+    "PH": {
+      "name": "菲律賓",
+      "code": "63"
+    },
+    "PK": {
+      "name": "巴基斯坦",
+      "code": "92"
+    },
+    "PL": {
+      "name": "波蘭",
+      "code ": "48"
+    },
+    "PR": {
+      "name": "波多黎各",
+      "code": "1787"
+    },
+    "PT": {
+      "name": "葡萄牙",
+      "code": "351"
+    },
+    "QA": {
+      "name": "卡塔爾",
+      "code": "974"
+    },
+    "KT": {
+      "name": "科特迪瓦共和國",
+      "code": "225"
+    },
+    "RU": {
+      "name": "俄羅斯",
+      "code": "7"
+    },
+    "RO": {
+      "name": "羅馬尼亞",
+      "code": "40"
+    },
+    "ES": {
+      "name": "西班牙",
+      "code": "34"
+    },
+    "LK": {
+      "name": "斯里蘭卡",
+      "code": "94"
+    },
+    "LC": {
+      "name": "聖盧西亞",
+      " code": "1758"
+    },
+    "VC": {
+      "name": "聖文森特島",
+      "code": "1784"
+    },
+    "SA": {
+      "name": "沙特阿拉伯",
+      "code": " 966"
+    },
+    "SB": {
+      "name": "所羅門群島",
+      "code": "677"
+    },
+    "SC": {
+      "name": "塞舌爾",
+      "code": "248"
+    },
+    "SD": {
+      "name": "蘇丹",
+      "cod e": "249"
+    },
+    "SE": {
+      "name": "瑞典",
+      "code": "46"
+    },
+    "SG": {
+      "name": "新加坡",
+      "code": "65"
+    },
+    "SI": {
+      "name": "斯洛文尼亞",
+      "code": "386"
+    },
+    "SK": {
+      "name": "斯洛伐克",
+      "code": "421"
+    },
+    "SL": {
+      "name": "塞拉利昂",
+      "code": "232"
+    },
+    "SM": {
+      "name": "聖馬力諾",
+      "code": "378"
+    },
+    "SN": {
+      "name": "塞內加爾",
+      "code": "221"
+    },
+    "SO": {
+      "name": "索馬里",
+      "code": "252"
+    },
+    "SR": {
+      "name": "蘇里南",
+      "code": "597"
+    },
+    "ST": {
+      "name": "聖多美和普林西比",
+      "code": "239"
+    },
+    "CH": {
+      "name": "瑞士",
+      "code": "41"
+    },
+    "SZ": {
+      "name": "斯威士蘭",
+      "code": "268 "
+    },
+    "ZA": {
+      "name": "南非",
+      "code": "27"
+    },
+    "TG": {
+      "name": "多哥",
+      "code": "228"
+    },
+    "TJ ": {
+      "name": "塔吉克斯坦",
+      "code": "992"
+    },
+    "TM": {
+      "name": "土庫曼斯坦",
+      "code": "993"
+    },
+    "TN": {
+      "name": "突尼斯",
+      "code": "216"
+    },
+    "TO": {
+      "name": "湯加",
+      "code": "676"
+    },
+    "TR": {
+      "name": "土耳其",
+      "code": "90"
+    },
+    "TT": {
+      "name": "特立尼達和多巴",
+      "code": "1809"
+    },
+    "TZ": {
+      "name": "坦桑尼亞",
+      "code": "255"
+    },
+    "TH": {
+      "name": "泰國",
+      "code": "66"
+    },
+    "US": {
+      "name": "美國",
+      "code": "1"
+    },
+    "UA": {
+      "name": "烏克蘭",
+      "code": "380"
+    },
+    "UY": {
+      "name": "烏拉圭",
+      "code": "598"
+    },
+    "UZ": {
+      "name": "烏茲別克斯坦",
+      "code": "233"
+    },
+    "GB": {
+      "name": "英國",
+      "code": "44"
+    },
+    "AE": {
+      "name": "阿拉伯聯合酋長國",
+      "code": "971"
+    },
+    "VN": {
+      "name": "越南",
+      "code": "84"
+    },
+    "VE": {
+      "name": "委內瑞拉",
+      "code": "58"
+    },
+    "YU": {
+      "name": "南斯拉夫",
+      "code": "381"
+    },
+    "ZM": {
+      "name": "贊比亞",
+      "code": "260"
+    },
+    "ZR": {
+      "name": "扎伊爾",
+      "code": "243"
+    },
+    "ZW": {
+      "name": "津巴布韋",
+      "code": "263"
+    }
+  }
+}

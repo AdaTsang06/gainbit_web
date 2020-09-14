@@ -1,0 +1,9 @@
+@import "../com.scss";
+.forgot_password_form{
+  padding-top: 0 !important;
+  .forgot_password_form_header{
+    height: auto;
+    margin: 0 auto 40px;
+ }
+}
+.reset_tips{font-size: 12px;color: $normalColor2;margin-bottom: 30px;}

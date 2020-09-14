@@ -1,0 +1,66 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "umi dev",
+    "start:sit": "cross-env UMI_ENV=sit umi dev",
+    "start:uat": "cross-env UMI_ENV=uat umi dev",
+    "start:prd": "cross-env UMI_ENV=prd umi dev",
+    "build:dev": "cross-env UMI_ENV=dev umi build",
+    "build:sit": "cross-env UMI_ENV=sit umi build",
+    "build:uat": "cross-env UMI_ENV=uat umi build",
+    "build": "cross-env UMI_ENV=prd umi build",
+    "test": "umi test",
+    "lint": "eslint --ext .js src mock tests",
+    "precommit": "lint-staged"
+  },
+  "dependencies": {
+    "big.js": "^5.2.2",
+    "classnames": "^2.2.6",
+    "copy-to-clipboard": "^3.2.0",
+    "create-hmac": "^1.1.7",
+    "fingerprintjs2sync": "^1.5.5",
+    "moment": "^2.24.0",
+    "prop-types": "^15.7.2",
+    "qrcode.react": "^0.9.3",
+    "rc-dialog": "^7.5.7",
+    "react": "^16.8.6",
+    "react-audio-player": "^0.10.0",
+    "react-datepicker": "^2.9.6",
+    "react-document-title": "^2.0.3",
+    "react-dom": "^16.8.6",
+    "react-dropzone": "^4.2.11",
+    "react-free-scrollbar": "^0.3.2",
+    "react-id-swiper": "^1.6.8",
+    "react-router-dom": "^5.1.2",
+    "react-tiny-virtual-list": "^2.2.0",
+    "react-tooltip": "^3.11.1",
+    "recharts": "^1.7.1",
+    "redux-form": "^8.2.6"
+  },
+  "devDependencies": {
+    "babel-eslint": "^9.0.0",
+    "cross-env": "^6.0.0",
+    "eslint": "^5.4.0",
+    "eslint-config-umi": "^1.4.0",
+    "eslint-plugin-flowtype": "^2.50.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^5.1.1",
+    "eslint-plugin-react": "^7.11.1",
+    "husky": "^0.14.3",
+    "lint-staged": "^7.2.2",
+    "node-sass": "^4.12.0",
+    "react-test-renderer": "^16.7.0",
+    "sass-loader": "^8.0.0",
+    "umi": "^2.7.7",
+    "umi-plugin-react": "^1.8.4"
+  },
+  "lint-staged": {
+    "*.{js,jsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}

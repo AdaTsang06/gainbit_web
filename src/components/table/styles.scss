@@ -1,0 +1,79 @@
+@import "../../css/constants.scss";
+.table {
+  /* width: 100%; */
+  /* max-width: 1200px; */
+  position: relative;
+  &_content {
+    overflow-x: scroll;
+    height: 396px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &_child {
+      width: calc(100% - 17px) ;
+      min-width: calc( #{$container-minWidth} - 60px );
+      max-width: calc( #{$container-maxWidth} - 60px );
+      &_tr{
+        th,td{
+          border-bottom: none;
+          background: #1d2d4e!important;
+          &:hover {
+            background: $contentBg;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+  td.table_empty {
+    font-size: 14px;
+    text-align: center;
+    color: $tableThColor;
+    padding: 20px;
+  }
+  td,
+  th {
+    max-width: 355px;
+    padding: 0 10px;
+    text-align: center;
+    overflow: hidden;
+    font-size: 14px;
+    color: $tableThColor;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  th{
+    border-bottom:1px solid $tableBorder;
+    padding-bottom: 12px;
+    font-weight: normal;
+  }
+  thead tr {
+    height: 36px;
+    font-size: 14px;
+    background: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    th:first-child{
+      padding-left: 0;
+    }
+  }
+  tbody tr {
+    height: 36px;
+    font-size: 14px;
+    background-color: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    td{
+      padding-top:10px;
+    }
+    td:first-child{
+      padding-left: 0;
+    }
+    &:nth-child(2n) {
+      background-color: transparent;
+    }
+  }
+}

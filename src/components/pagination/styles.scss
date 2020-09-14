@@ -1,0 +1,35 @@
+@import "../../css/constants.scss";
+.pagination {
+  margin: 0 auto;
+  text-align: center;
+  color: $tableThColor;
+  position:absolute;
+  bottom:-50px;
+  z-index:9;
+  width: 100%;
+  background: $contentBg;
+  button {
+    height: 26px;
+    padding: 0 10px;
+    margin: 10px;
+    border: 1px solid #294666;
+    background: transparent;
+    color: $tableThColor;
+    border-radius: 4px;
+
+    &[disabled] {
+      border-color: #4c6072;
+      color: #4c6072;
+      cursor: not-allowed;
+    }
+  }
+}
+
+button.button {
+  background: $primaryColor;
+  color: #ffffff;
+
+  &:hover {
+    background-color: $primaryColor;
+  }
+}

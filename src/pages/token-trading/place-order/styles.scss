@@ -1,0 +1,239 @@
+@import "../../../css/constants.scss";
+
+.place_order {
+  display: flex;
+  flex-direction: column;
+  background-color: $contentBg;
+  min-height: 378px;
+  height: calc(100vh - #{$headerTradeHeight} - #{$marketHeaderHeight} - 350px);
+  position: relative;
+  flex-shrink: 0;
+
+&_content {
+   display: flex;
+   flex: 1;
+ }
+}
+
+.flex {
+  flex: 1;
+}
+
+.sale {
+  position: absolute;
+  right: 20px;
+  color: $textColor;
+  height: 100%;
+  line-height: 40px;
+
+&_price {
+   margin-right: 4px;
+ }
+
+&_real {
+   color: $sellColor;
+ }
+}
+
+.balance_info {
+  font-size: 12px;
+  color: $textColor;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+
+> span:first-child {
+    font-size: 14px;
+    color: #ccc;
+  }
+}
+
+.order_form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 12px;
+  flex:1;
+
+&_item {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   color: $textColor;
+   font-size: 12px;
+   margin-bottom: 10px;
+
+> span:first-child {
+    display: block;
+    width: 50px;
+    height: 25px;
+    line-height: 25px;
+    color: $tabColor;
+    font-size: 12px;
+  }
+
+span {
+  white-space: nowrap;
+}
+
+&_input {
+   display: flex;
+   align-items: center;
+   height: 35px;
+   flex: 1;
+   &_show{
+      width: 100%;
+      height: 100%;
+      display: block;
+      line-height: 1;
+      background-color: $mainBg;
+      border: 1px solid #294666;
+      color: $textColor;
+      text-align: center;
+      font-size: 14px;
+      padding: 10px 0;
+    }
+ }
+&_tips{display:block;width:100%;color: $tabColor;font-size: 12px;height: 25px;line-height: 25px;}
+
+&_lable{
+     display: block;
+     width: 100%;
+     color: $tabColor;
+     font-size: 12px;
+     margin-bottom: 8px;
+  >span:first-child{width: 50%;display: inline-block;text-align: left;}
+  >span:last-child{color: #fff;width: 50%;text-align: right;display: inline-block;}
+}
+
+input {
+  width: 100%;
+  height: 100%;
+  background-color: $mainBg;
+  border: 1px solid $lineColor;
+  border-right: 0 none;
+  color: $textColor;
+  outline: none;
+  padding-left: 10px;
+  font-size: 16px;
+  text-align: left;
+}
+
+.currency_type {
+  display: inline-block;
+  background-color: $mainBg;
+  border: 1px solid $lineColor;
+  border-left: 0 none;
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: $textColorP;
+  padding-right: 10px;
+}
+}
+
+.percent {
+  color: $textColor;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-self: center;
+  height: 35px;
+span {
+  text-align: center;
+  width: 64px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 2px;
+  background-color: transparent;
+  border: 1px solid #3A496A;
+  font-size: 10px;
+  cursor: pointer;
+}
+}
+
+button {
+  width: 100%;
+  line-height: 40px;
+  height: 40px;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 16px;
+  outline: none;
+}
+
+.error {
+  position: absolute;
+  width: 100%;
+  top:130px;
+  right: 0;
+  left: 0;
+  padding-bottom: 10px;
+  font-size: 12px;
+  color: $sellColor;
+  text-align: center;
+}
+}
+
+.tips {
+  line-height: 1.5;
+  font-size: 12px;
+  padding: 2px 20px;
+  border-radius: 1000000px;
+  min-width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background-color: #39b06e;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 111;
+  transition: 0.3s;
+}
+
+.replace {
+&_shadow {
+   width: 100%;
+   height: 100%;
+   background: rgba(0, 0, 0, 0.5);
+   position: fixed;
+   top: 0;
+   left: 0;
+   z-index: 11;
+ }
+
+&_show {
+   background-color: rgba(45, 45, 45, 0.7);
+   z-index: 1000;
+ }
+
+&_action {
+   display: flex;
+   justify-content: space-between;
+
+button {
+  width: 45%;
+}
+
+button:first-child {
+  /*background: #282828;*/
+  color: #fff;
+  /*border: 1px solid #626262;*/
+}
+}
+}
+.scale_box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  color: #fff;
+  font-size: 18px;
+}

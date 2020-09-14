@@ -1,0 +1,53 @@
+{
+  "zh-CN": {
+    "mobile": "请输入注册手机",
+    "send": "获取验证码",
+    "submit": "提交",
+    "forgot": "忘记密码",
+    "forgotHeader1": "还没有账户？",
+    "forgotHeader2": "立即注册",
+    "forgot_title": "重置密码",
+    "new_password": "请输入密码",
+    "confirm_password": "请再次输入密码",
+    "code": "请输入手机验证码",
+    "required": "该字段不能为空",
+    "error_password": "必须包含数字和字母",
+    "error_length": "长度不能小于 8 位",
+    "error_code": "验证码格式错误",
+    "different_password": "两次密码输入不一致"
+  },
+  "en-US": {
+    "mobile": "Please enter your registered mobile",
+    "send": "Send",
+    "submit": "Submit",
+    "forgot": "Forgot Password",
+    "forgotHeader1" : "Haven't account?" ,
+    "forgotHeader2" : "Register",
+    "forgot_title": "Reset Password",
+    "new_password": "Please enter the password",
+    "confirm_password": "Please enter the password again",
+    "code": "Please enter the mobile verification code",
+    "required": "This field is required",
+    "error_password": "At least 8 characters long",
+    "error_length": "Require numbers and letters",
+    "error_code": "Error code",
+    "different_password": "Passwords do not match. Please try again"
+  },
+  "zh-TW": {
+    "mobile": "請輸入註冊手机",
+    "send": "獲取驗證碼",
+    "submit": "提交",
+    "forgot": "忘記密碼",
+    "forgotHeader1": "還沒有賬戶？",
+    "forgotHeader2": "立即註冊",
+    "forgot_title": "重置密碼",
+    "new_password": "請輸入密碼",
+    "confirm_password": "請再次輸入密碼",
+    "code": "請輸入手機驗證碼",
+    "required": "該字段不能為空",
+    "error_password": "必須包含數字和字母",
+    "error_length": "長度不能小於 8 位",
+    "error_code": "驗證碼格式錯誤",
+    "different_password": "兩次密碼輸入不一致"
+  }
+}

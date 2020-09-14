@@ -1,0 +1,133 @@
+@import "../../../../css/constants.scss";
+@import "../../../../css/common.scss";
+
+$labelWidth: 180px;
+
+.crypto {
+  padding: 0 30px 20px;
+
+  [class*="render_field"] {
+    justify-content: flex-start !important;
+
+    div {
+      margin-left: 0;
+    }
+  }
+
+  [class*="action"] {
+    justify-content: flex-start;
+    margin-left: $labelWidth;
+  }
+
+  [disabled] {
+    cursor: not-allowed;
+  }
+
+  &_amount_action {
+    color: $primaryColor;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  &_amount_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+
+    [class*="render_field"] {
+      margin-bottom: 0;
+
+      > span {
+        width: $labelWidth;
+      }
+    }
+  }
+
+  &_transition {
+    font-size: 14px;
+    margin-left: $labelWidth;
+    margin-bottom: 30px;
+    color: #606060;
+  }
+
+  &_form_item {
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+
+    > span {
+      width: $labelWidth;
+    }
+
+    [class*="select_value"] {
+      height: 84px;
+      background: #fff;
+      line-height: 1.5;
+      border-radius: 4px;
+      color: #333;
+      border: 2px solid #00b4ff;
+
+      > span {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+
+    [class*="select_container"] {
+      padding: 0;
+      border-radius: 4px;
+      border: solid 2px #e8e8e8;
+    }
+
+    ul {
+      padding: 0;
+    }
+
+    li:hover {
+      background: #fff;
+
+      > span {
+        color: $primaryColor;
+      }
+    }
+
+    li {
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      border-bottom: 1px solid #e8e8e8;
+      background: #fff;
+      width: 100%;
+      height: 84px;
+      line-height: 1.5;
+    }
+  }
+}
+
+.crypto_withdraw_warning {
+  margin-top: 30px;
+  color: #868686;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+}
+
+.add_address {
+  padding: 10px;
+  text-align: center;
+  background: #fff;
+  color: #2c90d5;
+}
+
+.add_address_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2c90d5;
+  font-size: 14px;
+  width: 400px;
+  height: 84px;
+  border-radius: 4px;
+  border: dashed 2px #c4c7d0;
+  cursor: pointer;
+}

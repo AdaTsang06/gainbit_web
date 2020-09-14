@@ -1,0 +1,43 @@
+@import "../../../css/constants.scss";
+@import "../../../css/common.scss";
+
+.sms {
+  width: 50%;
+  margin: 0 auto;
+  padding-top: 30px;
+  &_form {
+    [class*="render_field"] {
+      display: flex;
+      align-items: center;flex-direction: row;
+      justify-content: space-between;padding: 0 30px;
+      [class*="input_field"]{
+        width: 80%;
+        >input:not([type="checkbox"]){
+           border: solid 1px $borderColorIn;
+           color: #fff;
+        }
+      }
+    }
+    span {
+      line-height: 1.5;
+      color: #fff;
+    }
+    }
+  input {
+    font-size: 14px;
+  }
+  &_result{
+     color: $textColor;
+     display: flex;
+     align-items: center;flex-direction: column;
+     justify-content: center;
+     img{width: 88px;height: 88px;}
+     >span{
+        display:inline-block;line-height: 30px;
+        &:first-child{font-size: 18px;line-height: 80px;}
+        }
+   }
+}
+
+
+

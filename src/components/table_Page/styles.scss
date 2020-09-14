@@ -1,0 +1,108 @@
+@import "../../css/constants.scss";
+.table {
+  /* width: 100%; */
+  /* max-width: 1200px; */
+  position: relative;
+  &_content {
+    overflow-x: scroll;height: 470px;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    &_child {
+      width: 100%;
+      width: calc(100% - 17px);
+      min-width: calc( #{$container-minWidth} - 60px );
+      max-width: calc( #{$container-maxWidth} - 60px );
+    }
+    &_trade{
+      width: 100%;
+      thead tr,
+      tbody tr{
+        background: #1d2d4e!important;
+      }
+      tbody tr:hover {
+        background: $contentBg;
+        cursor: pointer;
+      }
+      thead th{
+        border-bottom: none;
+      }
+     }
+  }
+  td.table_empty {
+    font-size: 14px;
+    text-align: center;
+    color: $tableThColor;
+    padding: 20px;
+  }
+  td,
+  th {
+    max-width: 390px;
+    padding: 0 20px;
+    word-wrap: break-word;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 14px;
+  }
+  th{
+    color: $tableThColor;
+    border-bottom:1px solid $tableBorder;
+    padding-bottom: 12px;
+    font-weight: normal;
+  }
+  td{
+    color: white;
+  }
+  thead tr {
+    height: 30px;
+    font-size: 14px;
+    background: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    th:first-child{
+      padding-left: 0;
+    }
+  }
+  tbody tr {
+    height: 40px;
+    font-size: 14px;
+    background-color: transparent;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    td:first-child{
+      padding-left: 0;
+    }
+    &:nth-child(2n) {
+      background-color: transparent;
+    }
+  }
+  td.detailTD{
+    width: 100%;
+    display: block;
+  }
+
+  &_left,
+  &_right {
+    position: absolute;
+    top: 0;
+    &_middle {
+      box-shadow: -4px 0 0 rgba(255, 255, 255, 0.1);
+    }
+  }
+  &_left {
+    left: 0;
+    &_right {
+      box-shadow: -4px 0 0 rgba(255, 255, 255, 0.1);
+    }
+  }
+  &_right {
+    right: 0;
+    &_left {
+      box-shadow: -4px 0 0 rgba(255, 255, 255, 0.1);
+    }
+  }
+}

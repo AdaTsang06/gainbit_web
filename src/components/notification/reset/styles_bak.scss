@@ -1,0 +1,30 @@
+@import "../../../css/constants.scss";
+@import "../../../css/common.scss";
+
+
+.sms {
+  width:100%;
+  &_form {
+    [class^="render_field"] {
+      display: flex;
+      align-items: center;flex-direction: row;
+      justify-content: space-between;padding: 0 30px;
+      [class^="input_field"]{
+        width: 80%;
+        >input:not([type="checkbox"]){
+           border: solid 1px #41537b;
+        }
+      }
+    }
+    span {
+      line-height: 1.5;
+      color: #fff;
+    }
+    }
+  input {
+    font-size: 14px;
+  }
+}
+
+
+

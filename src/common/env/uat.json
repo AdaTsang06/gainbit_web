@@ -1,0 +1,5 @@
+{
+  "apiUrl": "https://www.goldlink.one:8080",
+  "wsUrl": "wss://www.goldlink.one:8080/ws",
+  "CHART_URL": "https://www.goldlink.one:8100/"
+}

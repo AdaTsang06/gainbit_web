@@ -1,0 +1,23 @@
+{
+  "zh-CN": {
+    "limit": "限价单{item}",
+    "market": "市价单{item}",
+    "stop": "止损单{item}",
+    "limitTip":"限价是指定一个价格进\n行买入或卖出委托，当\n市场价格低于或高于这\n个价格时该笔买入或卖\n出委托成交。",
+    "stopTip": "止损是指定一个价格进\n行买入或卖出委托，当\n价格突破该阻力位后，\n就可以确定是上升或下\n降趋势，这时就可以用\n止损买或卖单。"
+  },
+  "en-US": {
+    "limit": "Limit{item}",
+    "market": "Market{item}",
+    "stop": "Stop{item}",
+    "limitTip":"Limit Order",
+    "stopTip": "Stop Loss Order"
+  },
+  "zh-TW": {
+    "limit": "限價單{item}",
+    "market": "市價單{item}",
+    "stop": "止損單{item}",
+    "limitTip":"限价是指定一个价格进\n行买入或卖出委托，当\n市场价格低于或高于这\n个价格时该笔买入或卖\n出委托成交。",
+    "stopTip": "止损是指定一个价格进\n行买入或卖出委托，当\n价格突破该阻力位后，\n就可以确定是上升或下\n降趋势，这时就可以用\n止损买或卖单。"
+  }
+}

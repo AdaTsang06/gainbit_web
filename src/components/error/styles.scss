@@ -1,0 +1,13 @@
+.error {
+  z-index: 1000;
+  background: #d13232;
+  color: #fff;
+  font-size: 14px;
+  max-width: 300px;
+  padding: 10px 16px;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  margin-top: 20px;
+  line-height: 1.5;
+  transition: all 0.3s;
+}

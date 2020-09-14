@@ -1,0 +1,50 @@
+@import "../../css/constants.scss";
+
+.switch_bar {
+  position: relative!important;
+  display: flex;
+  white-space: nowrap;
+  font-size: 16px;
+  height: 40px!important;
+
+  a ,.tab_tip{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    margin-right: 50px;
+    position: relative;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  >span {
+    display: flex;
+    white-space: nowrap;
+    /*float:right;*/
+   position: absolute;
+   right: 10px;
+    >img {
+       width: 20px;
+       height: 20px;
+       margin: 10px 2px;
+       cursor: pointer;
+     }
+  }
+  &_icon{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: -20px;
+    top: -17px;
+    cursor: pointer;
+    background-image:url("../../assets/question_sm.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    &:hover{
+       background-image: url("../../assets/question_big.png");
+  }
+  }
+}
+

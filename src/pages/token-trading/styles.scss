@@ -1,0 +1,445 @@
+@import "../../css/constants.scss";
+$dateColumnWidth: 58px;
+
+.trading {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - #{$marketHeaderHeight} - #{$headerTradeHeight});
+  /*margin: 0 auto 5px;*/
+  font-family: Roboto;
+
+  &_header{
+     width: 100%;
+     height: $marketHeaderHeight;
+     position: relative;
+     top: 0;
+     left: 0;
+     z-index: 1;
+     margin-bottom: 6px;
+     background-color: $contentBg;
+     transition: $transition;
+     color: #fff;
+     padding: 12px 20px 12px 25px;
+     display: flex;
+     align-items: center;
+
+    >a {
+       box-sizing: border-box;
+       cursor: pointer;
+       display: inline-block;
+       line-height: 1;
+       outline: none;
+     }
+    .img_wrap{
+      display: inline-block;
+      height: 36px;
+      margin: 0 50px 0 0;
+      vertical-align: bottom;
+    }
+
+    > div:first-child {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+      }
+    .pair {
+      position: relative;
+      margin-right: 100px;
+      > span:first-child{
+          font-size: 14px;
+          margin-right: 17px;
+          color: $tabColor;
+        }
+      > span {
+          font-size: 16px;
+          color: #fff;
+        }
+    }
+    .pair:after {
+      content: " ";
+      width: 1px;
+      height: 25px;
+      border-right: 1px solid #45577F;
+      position: absolute;
+      right: -50px;
+      top: 8px;
+    }
+
+    &_item {
+       display: flex;
+       flex-direction: column;
+       align-items: flex-start;
+       height: 48px;
+       font-size: 18px;
+       margin-right: 40px;
+       color: $textColor;
+       min-width: 120px;
+       justify-content: center;
+
+      > span:first-child {
+          font-size: 12px;
+          color: $tabColor;
+          padding-bottom: 5px;
+        }
+
+      > span:last-child {
+          font-size: 18px;
+          white-space: nowrap;
+        }
+      }
+    &_introduction{
+       font-size: 14px;
+       position: absolute;
+       right: 30px;
+       height: 48px;
+       cursor: pointer;
+       line-height: 48px;
+       >img{display: inline-block;margin-left: 10px;vertical-align: text-top;}
+     }
+   }
+
+  &_content {
+    display: flex;
+    align-items: stretch;
+    flex: 1;
+    margin-bottom: 5px;
+    height: calc(100vh - #{$marketHeaderHeight} - #{$headerTradeHeight} - 12px);
+
+    .middle {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: calc(100% - 2 * #{$sidebarWidth} - 20px);;
+      margin: 0 6px 0 0;
+      .trading_order_nodata {
+        background: $contentBg;
+        color: $textColor;
+        text-align: center;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: calc(100vh - #{$headerTradeHeight} - #{$chartHeight} - 122px);
+        min-height: 200px;
+        span{
+          margin: 15px auto;
+          color: $tabColor;
+          a>span{
+             color: $primaryColor;
+           }
+
+        }
+      }
+    }
+    .right {
+      display: flex;
+      flex-direction: column;
+      &_top{
+         display: flex;
+         align-items: stretch;flex-wrap: wrap;
+         margin-bottom: 6px;
+         overflow: hidden;
+       }
+    }
+
+    /*.left,*/
+    .right {
+      flex-shrink: 0;
+    }
+  }
+  &.fullScreen ,& .fullScreen{
+    width: 100%;
+    height: 100vh;
+  }
+  & .fullWidth{
+    width: 100%;
+  }
+}
+
+.total_assets {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 20px;
+  font-size: 12px;
+  color: $textColor;
+  height: 90px;
+  background-color: $contentBg;
+  margin-bottom: 5px;
+
+  &_icon {
+    height: 100%;
+    margin-top: 30px;
+
+    svg {
+      transform: scale(0.8);
+    }
+  }
+
+  &_value {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+    svg {
+      cursor: pointer;
+    }
+  }
+
+  &_highlight {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 8px;
+  }
+
+  &_des {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.market {
+  height: 100%;
+  font-size: 12px;
+  color: $textColor;
+  background-color: $contentBg;
+  flex: 1;
+  .list_title {
+    padding: 0 20px;
+     span:nth-child(2) {
+      text-align: left;
+    }
+
+    > span:first-child:before {
+      right: 25px;
+    }
+
+    > span:first-child:after {
+      right: 25px;
+    }
+
+    .sort {
+      position: relative;
+      user-select: none;
+      cursor: pointer;
+
+      > span {
+        padding-right: 15px;
+      }
+
+      &:before,
+      &:after {
+        display:none;
+        width: 0;
+        height: 0;
+        border-left: 4px solid transparent;
+        border-right: 4px solid transparent;
+        border-bottom: 4px solid #969EB3;
+        border-top: 0;
+        position: absolute;
+        right: 20px;
+        content: "";
+      }
+
+      &:before {
+        top: 10px;
+      }
+
+      &:after {
+        bottom: 13px;
+        border-top: 4px solid #969EB3;
+        border-bottom: 0;
+      }
+
+      &.up,
+      &.down {
+        color: #4589d8;
+      }
+
+      &.up:before,
+      &.down:after {
+        border-bottom-color: #7a98f7;
+        border-top-color: #7a98f7;
+      }
+    }
+  }
+
+  .market_banner {
+    font-size: 14px;
+    margin-bottom: 16px;
+    padding: 0 20px;
+  }
+
+  ul {
+  /*margin-top:35px;*/
+  height:192px;
+    li {
+      height: 32px;
+      border-bottom: none;
+      background-color: transparent;
+    }
+
+    a {
+      display: flex!important;
+      align-items: center;
+      padding: 0 20px!important;
+      color: $textColor;
+      height: 100%;
+
+      span {
+        text-align: left!important;
+        width: 33%;
+      }
+      span:last-child {
+        text-align: right!important;
+        width: 33%;
+        padding-right: 20px;
+      }
+    }
+  }
+  [class^='switch_bar']{
+    width: 360px;
+  }
+}
+
+/* list */
+.list_title {
+  display: flex;
+  align-items: center;
+  height: 25px!important;
+  font-size: 12px;
+  color: $tabColor;
+  padding: 10px 20px 0!important;
+  border-bottom: none!important;
+
+  > span {
+    height: 100%;
+    text-align: right;
+    width: 33%;
+    flex-shrink: 0;
+  }
+  > span:first-child{
+    text-align: left;
+  }
+}
+
+.panel_header {
+  color: $textColor;
+  font-size: 13px;
+  height: $orderBookHeaderHeight;
+  line-height: $orderBookHeaderHeight;
+  padding: 0 20px;
+}
+
+/* history style */
+.history {
+  width: $sidebarWidth;
+  background-color: $contentBg;
+  height: calc(100vh - 115px);
+  min-height: 280px;
+  max-height: calc(100vh - 645px);
+
+  .list_title {
+    span:first-child {
+      width: $dateColumnWidth;
+    }
+
+    span {
+      width: calc((100% - #{$dateColumnWidth}) / 2);
+    }
+  }
+
+  ul {
+    width: $sidebarWidth;
+    padding: 10px 20px 10px 10px;
+  }
+
+  li {
+    line-height: 16px;
+    font-size: 12px;
+    color: $textColor;
+    padding-bottom:8px;
+
+    span:first-child {
+      width: $dateColumnWidth;
+    }
+
+    span {
+      display: inline-block;
+      width: calc((100% - #{$dateColumnWidth}) / 2);
+      text-align: right;
+    }
+  }
+}
+
+.tips {
+  min-width: 180px;
+  padding: 8px;
+  color: white;
+  background-color: #39b06e;
+  font-size: 16px;
+  box-shadow: 0px 0px 7px 1px rgba(0, 0, 0, 0.35);
+  position: absolute;
+  top: $chartHeight;
+  z-index: 111;
+}
+
+.chart {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 0;
+  margin-bottom: 6px;
+  background-color: $contentBg;
+  min-height: $chartHeight;
+}
+
+.chart_header::-webkit-scrollbar {
+  display: none;
+}
+
+/*.chart_header {
+  display: flex;
+  align-items: center;
+
+  > div:first-child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pair {
+    > span:first-child {
+      font-size: 20px;
+      color: #ccc;
+    }
+  }
+
+  &_item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 48px;
+    font-size: 18px;
+    margin-right: 38px;
+    color: $textColor;
+    min-width: 48px;
+
+    > span:first-child {
+      font-size: 12px;
+      color: #6c6c6c;
+      padding-bottom: 10px;
+    }
+
+    > span:last-child {
+      white-space: nowrap;
+    }
+  }
+}*/
+.placeOrderLink{
+  cursor: pointer;
+  margin: 10px;
+  color:$primaryColor;
+}

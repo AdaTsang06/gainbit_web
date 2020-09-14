@@ -1,0 +1,22 @@
+@import "../../../css/constants.scss";
+@import "../../../css/common.scss";
+
+.history{
+  &_label{
+    padding:0 30px;
+   }
+   .form_box{
+     border-top:1px solid $tableBorder;
+   }
+   .formSearch{
+     border-bottom: 5px solid $mainBg;
+   }
+}
+
+.crypto {
+  padding: 26px 13px 50px 30px;
+  a {
+    color: $primaryColor;
+  }
+}
+

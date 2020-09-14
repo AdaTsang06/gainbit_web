@@ -1,0 +1,54 @@
+@import "../../../../css/constants.scss";
+.crypto {
+  width: 100%;
+  padding: 0 30px 20px;
+  >span:first-child{
+     display: block;
+     font-size: 14px;
+     color: #8F9FC5;
+     line-height: 24px;
+   }
+  &_span{text-align: center;margin: 20px auto;}
+  &_empty {
+    width: 170px;
+    height: 170px;
+    margin: 0 auto;
+    background: #fff;
+  }
+  &_address {
+    font-size: 18px;
+    font-weight: normal;
+    color: #F1F2F3;
+    margin: 0 0 30px;
+   display: flex;
+   align-items: baseline;
+   justify-content: space-between;
+   border-bottom: 1px solid #374A72;
+  }
+  &_action {
+
+  }
+  &_deposit_warning {
+    color: #8694B4;
+    font-family: "PingFang SC", “Segoe UI”, SegoeUI, “Microsoft YaHei”, 微软雅黑,
+      “Hiragino Sans GB”, “Heiti SC”, "Helvetica Neue", "Helvetica", "Arial",
+      sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    white-space: pre-wrap;
+  }
+  button {
+    border: 1px solid $primaryColor;
+    border-radius: 4px;
+    height: 30px;
+    color: #fff;
+    padding: 0 11px;
+    margin: 0 0 10px 0;
+    background: $primaryColor;
+    &[disabled] {
+      background: #cecece;
+      color: white;
+      border: 1px solid #cecece;
+    }
+  }
+}

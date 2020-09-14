@@ -1,0 +1,41 @@
+@import "../../css/constants.scss";
+.notice {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #243256;
+  height: 44px;
+  /* background: #161f2a; */
+  background: white;
+  font-size: 13px;
+  padding: 0 16px;
+  margin-bottom:28px;
+  box-shadow: 0 8px 20px 0 rgba(0,0,0,0.07);
+  &_item {
+    display: flex;
+    flex:1;
+    align-items: center;
+    height: 28px;
+    line-height: 28px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    cursor: pointer;
+    a {
+      display: inline-block;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      margin-left: 25px;
+    }
+    &:hover {
+      color: $primaryColor;
+    }
+  }
+  &_more{
+     display: flex;
+     align-items: center;
+    &:hover {
+       color: $primaryColor;
+     }
+  }
+}

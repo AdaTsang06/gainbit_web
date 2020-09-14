@@ -1,0 +1,98 @@
+@import "../../css/constants.scss";
+
+.select {
+  position: relative;
+
+  &_value {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $contentBg;
+    border-radius: 2px;
+    padding: 8px;
+    height: 40px;
+    cursor: pointer;
+    color: #ccc;
+
+    svg {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      margin-top: -7px;
+      transform: rotate(90deg) scale(0.4, 0.8);
+      transition: 0.3s;
+    }
+  }
+
+  &_arrow_up {
+    svg {
+      transform: rotate(270deg) scale(0.4, 0.8);
+    }
+  }
+
+  &_container {
+    z-index: 9999;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    padding: 0;
+    border: solid 1px $contentBg;
+    background: $contentBg;
+    display: block;
+    border-radius: 4px;
+    /*overflow: hidden;*/
+    /*height: 300px;*/
+    box-shadow: 0 0 3px 3px rgba(15,20,48,0.36);
+    [class="FreeScrollbar-container"]{
+      >div{height: auto!important;}
+    }
+    [class="FreeScrollbar-vertical-track "]{
+      [class="FreeScrollbar-vertical-handler"]{
+        height: 45px;
+      }
+    }
+  }
+
+  &_content {
+    overflow: auto;
+    max-height: 300px;
+  }
+
+  li:hover {
+    background-color: #2D3F64;
+  }
+
+  &_item {
+    background-color: $contentBg;
+    padding: 0;
+    text-align: center;
+
+    > a {
+      display: flex !important;
+      flex-direction: column;
+      padding: 10px;
+      cursor: pointer;
+      color: $textColor !important;
+    }
+
+    > a,
+    span {
+      width: 100%;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+}
+
+.shadow {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}

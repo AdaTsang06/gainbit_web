@@ -1,0 +1,20 @@
+{
+  "zh-CN": {
+    "transaction": "交易二次确认",
+    "transaction_use": "开启后，每次下单时需要确认",
+    "status_open": "已开启",
+    "status_close": "已关闭"
+  },
+  "en-US": {
+    "transaction": "Order Confirmation",
+    "transaction_use": "For Trade Security",
+    "status_open": "Open",
+    "status_close": "Close"
+  },
+  "zh-TW": {
+    "transaction": "交易二次確認",
+    "transaction_use": "開啟後，每次下單時需要確認",
+    "status_open": "已開啟",
+    "status_close": "已關閉"
+  }
+}

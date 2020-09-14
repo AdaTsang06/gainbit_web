@@ -1,0 +1,13 @@
+@import '../com.scss';
+.login_form {
+  .forgot {
+    color: $normalColor2;
+    font-size: 14px;
+    display: block;
+    text-align: right;
+    position: relative;
+    cursor: pointer;
+    >a{color: $primaryColor;}
+  }
+}
+

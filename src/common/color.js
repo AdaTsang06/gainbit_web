@@ -1,0 +1,12 @@
+export const mainColor = '#ffbe00';
+export const textColor = '#fff';
+export const textColorP = '405F80';
+export const acTabColor = '#ffbe00';
+export const tabColor = '#9bacd2';
+export const sellColor = '#ff4E4E';
+export const buyColor = '#00C998';
+export const highLi = '#2D3F64';
+export const contentBg = '#172441';
+export const fzContentBg = '#1e2d4d';
+export const tableBorder = '#2d4066';
+export const mainBg= '#213153';

@@ -1,0 +1,72 @@
+@import "../../css/common.scss";
+@import "../../css/constants.scss";
+.inviteBox{
+    margin: 0 auto;
+    padding:30px 0;
+    color: #fff;
+    font-size: 14px;
+    .inviteInfo{
+      padding: 0 30px 6px;
+      >div{
+        margin-bottom: 10px;
+      }
+      span{
+        display: inline-block;
+        width: 100px;
+        color: #8f9fc5;
+        margin-right: 10px;
+      }
+    }
+    .codeDesc{
+        text-align: center;
+        padding:16px 0 16px;
+        border-bottom: 1px solid $mainBg;
+        margin-bottom: 20px;
+    }
+    .copyBox{
+        padding: 60px 30px 0 ;
+        &_label{
+            color: #8f9fc5;
+        }
+        &_item{
+            display: flex;
+            justify-content: space-between;
+            padding:22px 0;
+            border-bottom: 1px solid #8f9fc5; 
+        }
+    }
+    :global(.submit_button){
+        width: 135px;
+    }
+    .share {
+        font-size: 14px;
+        flex: 1;
+        &_item {
+          display: flex;
+          color: #8f9fc5;
+          padding:45px 30px 0 30px;
+          span {
+            line-height: 28px;
+            font-size: 14px;
+          }
+          span:first-child {
+            display: inline-block;
+            margin-right: 30px;
+          }
+        }
+        &_con {
+          display: flex;
+          flex: 4;
+          flex-direction: row;
+          align-items: center;
+          a {
+            margin-right: 10px;
+            width: 32px;
+            height: 32px;
+            border-radius: 4px;
+            background-color: $primaryColor;
+            text-align: center;
+          }
+        }
+    }
+}

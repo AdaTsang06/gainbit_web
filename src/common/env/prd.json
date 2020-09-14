@@ -1,0 +1,5 @@
+{
+  "apiUrl": "https://ex.gainbit.com:8080",
+  "wsUrl": "wss://ex.gainbit.com:8080/ws",
+  "CHART_URL": "https://ex.gainbit.com:8100/"
+}

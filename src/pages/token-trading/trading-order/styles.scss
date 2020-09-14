@@ -1,0 +1,80 @@
+@import "../../../css/constants.scss";
+$minOrderHeight:190px;
+.trading_order {
+  background: $contentBg;
+  color: $textColor;
+  height: calc(100vh - #{$headerTradeHeight} - #{$chartHeight} - 140px);
+  min-height: $minOrderHeight;
+  box-sizing:border-box;
+  padding:10px 20px 0;
+  [class*='FreeScrollbar-horizontal-handler'],
+  [class*='FreeScrollbar-square'],
+  [class*='FreeScrollbar-horizontal-track']{display: block!important;}
+
+  [class*='FreeScrollbar-horizontal-track']{
+    background-color: transparent !important;
+    height: 8px !important;
+    transition: opacity 0.3s;
+    border: 0 none !important;
+    bottom: 0px !important;
+  }
+  [class*='FreeScrollbar-square ']{background-color: transparent !important;}
+  [class*='FreeScrollbar-horizontal-handler']{
+    height: 6px !important;
+    right: 1px;
+    border-radius: 4px !important;
+    background-color: #32456C !important;
+    transition: opacity 0.3s;
+  }
+
+  &_label {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    [class*="select_value"] {
+      height: 22px;
+      color: $textColor;
+      font-size: 12px;
+      svg {
+        margin-top: -7px;
+        right: 4px;
+      }
+    }
+    [class*="select_item"] {
+      a {
+        text-align: center;
+
+        span {
+          font-size: 12px;
+          color: $textColor;
+        }
+      }
+    }
+  }
+
+  > div:last-child {
+    min-height: $minOrderHeight - 10px;
+    overflow: hidden;
+    [class*="table_content__"]{
+      padding-bottom: 16px;
+      min-height: $minOrderHeight;
+      height: calc(100vh - #{$headerTradeHeight} - #{$chartHeight} - 150px);
+    }
+  }
+}
+.opt_link{
+  margin-right: '8px';
+  width: '55px';
+  height: '25px';
+  line-height: '25px';
+  display: 'inline-block';
+  text-align: 'center';
+  a{
+    display: inline-block;
+    min-width: 45px;
+    color: $primaryColor;
+    margin-left: 10px;
+  }
+}

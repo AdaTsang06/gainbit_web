@@ -1,0 +1,100 @@
+@import "../../css/constants.scss";
+.select {
+  position: relative;
+
+  &_value {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:  $contentBg;
+    border-radius: 2px;
+    padding: 8px;
+    height: 40px;
+    cursor: pointer;
+    color: #ccc;
+
+    svg {
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      margin-top: -5px;
+      transform: rotate(90deg) scale(0.4, 0.8);
+      transition: 0.3s;
+    }
+  }
+
+  &_arrow_up {
+    svg {
+      transform: rotate(270deg) scale(0.4, 0.8);
+    }
+  }
+
+  &_container {
+    z-index: 9999;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    padding: 0;
+   background: #213153!important;
+   box-shadow: 0 0 12px 0 #101E3C!important;
+   border-radius: 2px!important;
+   color: #fff !important;
+   border: 0 none!important;
+    display: block;
+    overflow: hidden;
+    [class="FreeScrollbar-container"]{
+    >div{height: auto!important;}
+    }
+    [class="FreeScrollbar-vertical-track "]{
+    [class="FreeScrollbar-vertical-handler"]{
+      height: 45px;
+    }
+    }
+    }
+
+  &_content {
+    overflow: auto;
+    max-height: 300px;
+  }
+
+  li:hover {
+    background-color: #1a1a1a;
+  }
+
+  &_item {
+     background: #213153!important;
+     box-shadow: 0 0 12px 0 #101E3C!important;
+     border-radius: 2px!important;
+    padding: 0;
+     color: #fff !important;
+   border: 0 none!important;
+
+    > a {
+      display: flex !important;
+      flex-direction: column;
+      padding: 10px;
+      cursor: pointer;
+      color: #fff !important;
+    }
+    > a,
+    span {
+      /*width: 100%;*/
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
+    }
+  }
+  &_item:hover{background: #2D3F64!important;color: #fff;>a,span{color: #fff;}}
+}
+
+.shadow {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}

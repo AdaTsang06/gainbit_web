@@ -1,0 +1,15 @@
+@import '../com.scss';
+.check_desc {
+  > div:first-child {
+    justify-content: flex-start !important;
+
+    > div:first-child {
+      margin-left: 0 !important;
+    }
+  }
+  span {
+    font-size: 12px !important;
+    color: $normalColor2;
+    >a,>a>span{color: $primaryColor;}
+  }
+}

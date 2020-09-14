@@ -1,0 +1,63 @@
+@import "../../../css/constants.scss";
+.confirm {
+  background: #fff;
+  width: 80%;
+  max-width: 1000px;
+  border-radius: 4px;
+  margin: 0 auto;
+  color: #333;
+
+  &_header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  &_body {
+    padding: 20px 20px 10px;
+    max-height: 80vh;
+    line-height: 1.5;
+    overflow: auto;
+
+    h3 {
+      margin-top: 20px;
+      margin-bottom: 10px;
+      font-size: 24px;
+    }
+
+    p {
+      line-height: 2;
+      color: $textColor;
+      font-size: 14px;
+    }
+
+    .cancel_all {
+      text-align: center;
+      padding: 10px;
+    }
+  }
+
+  &_footer {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #e5e5e5;
+
+    button {
+      width: 130px;
+      height: 36px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 2px;
+      border: 1px solid #adadad;
+      outline: 0;
+      color: #333;
+      margin-left: 20px;
+    }
+  }
+}

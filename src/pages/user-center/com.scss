@@ -1,0 +1,159 @@
+@import '../../css/constants.scss';
+.login_form,.register_form,.forgot_password_form{
+    padding: 0 !important;
+    &_header{
+       height: 55px;
+      >img{margin: 0 auto 45px;display: block;}
+      &_link{
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-end;
+      >span{font-size: 18px; color: $normalColor1;}
+      >div{font-size: 14px;color: $normalColor2;>a>span{color: $primaryColor;}}
+      }
+     }
+     [class*="render_field"]{
+      width: 100%;
+      [class*="input_field"]{
+      [class*="select_value"]{
+          background: transparent;
+          border: 1px solid rgb(226, 226, 226);
+          padding: 5px;
+          color: $normalColor1;
+      }
+  
+      input:not([type="checkbox"]){
+        background: $fff;
+        border: 1px solid $borderColorOut;
+        border-radius: 4px;
+        font-size: 14px;
+        color: $normalColor1;
+        width: 100%;
+        height: 40px;
+        padding: 0 10px;
+        &:focus{
+          outline: none;
+          border: 1px solid $primaryColor;
+        }
+      }
+      input:not([type="checkbox"])[disabled]{background: $eee;}
+      input:-webkit-autofill{
+        background-color: $fff !important;
+        color: $normalColor1;
+      }
+      input::placeholder {
+        color: $normalColor3;
+      }
+      input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus{
+          -webkit-appearance:none;
+          -webkit-tap-highlight-color: $b000;
+          outline:none;
+          -webkit-backface-visibility: hidden!important;
+          background-color: $eee !important;
+          -webkit-box-shadow: 0 0 0 1000px $eee inset;
+          color: $normalColor1!important;
+          -webkit-text-fill-color: $normalColor1;
+        }
+        }
+  }
+  [class*="action"]:before{display: none;}
+  
+  [class*="action"] {
+      padding:9px 0;
+      margin-top: 6px;
+    button {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+      background-color: $primaryColor;
+    >span{margin: 0;font-size: 16px;color: $fff;}
+    }
+    }
+  
+    [class*="send_code"] {
+      width: 100%;
+      padding-left: 10px;
+      height: 40px;
+      button {
+        position: static!important;
+        width: 100%!important;
+        height: 100%;
+        background: $fff!important;
+        border: 1px solid $borderColorOut;
+        border-radius: 4px;
+        font-size: 12px;
+        color: $primaryColor!important;
+      }
+    }
+  
+    [class*="button_disabled"] {
+      width: 100%;
+      padding-left: 10px;
+      height: 40px;
+     button {
+       position: static!important;
+       width: 100%!important;
+      height: 100%;
+      background: $fff!important;
+      border: 1px solid $borderColorOut;
+      border-radius: 4px;
+      cursor: not-allowed;
+      color: $normalColor2!important;
+    }
+    }
+}
+.form_item{
+    display: flex;
+    flex: 1;
+    [class*="select_container"]{
+      background: #fff!important;
+    }
+
+    [class*="select_item"]{
+      background: #fff!important;
+      box-shadow: 0 0 12px 0 #e2e2e2!important;
+      a{
+        color:#010101!important;
+      }
+  
+    }
+}
+
+.resend {
+    height: 38px;
+    position: absolute;
+    width: 90px!important;
+    top: 1px;
+    right: 1px;
+    button {
+      width: 100%;
+      height: 100%;
+      background: $fff;
+      /*border: 1px solid $borderColorOut;*/
+      border-left: 0 none;
+      border-radius: 0 4px 4px 0;
+      font-size: 12px;
+      color: $primaryColor;
+      >span{height:20px; line-height:20px;padding-left:10px;border-left: 1px solid $borderColorOut;display: inline-block;}
+    }
+}
+
+.button_disabled {
+height: 40px;
+position: absolute;
+width: 90px!important;
+right: 1px;
+button {
+    width: 100%;
+    height: 100%;
+    background: $eee;
+    border: 1px solid $borderColorOut;
+    border-left: 0 none;
+    border-radius: 0 4px 4px 0;
+    cursor: not-allowed;
+    font-size: 12px;
+    color: $normalColor2;
+    >span{height:20px; line-height:20px;padding-left:10px;border-left: 1px solid $borderColorOut;display: inline-block;}
+}
+}
+  

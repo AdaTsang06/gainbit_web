@@ -1,0 +1,16 @@
+@import '../../css/constants.scss';
+@import "../../css/common.scss";
+
+.declareBox{
+    .SwitchBarBOx{
+        background: $contentBg;
+        padding: 0 30px;
+        border-bottom: 1px solid #2d4066;
+    }
+    .table_box {      
+        padding: 26px 13px 50px 30px;
+        a {
+          color: $primaryColor;
+        }
+      }
+}

@@ -1,0 +1,178 @@
+@import "../../../css/constants.scss";
+.order_book_section {
+  width: $sidebarWidth;
+  display: flex;
+  flex-direction: column;
+  /*flex: 1;*/
+  background-color: $contentBg;
+  position: relative;
+  height: calc(100vh - 115px);
+  min-height: 280px;
+  max-height: calc(100vh - 645px);
+
+  .order_book_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: $textColor;
+    padding: 0 20px;
+    height: $orderBookHeaderHeight;
+  }
+
+  .order_book_select {
+    padding-left: 0;
+  }
+
+  .order_latest_price {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+    font-size: 18px;
+    color: $textColor;
+
+    >span:first-child{color: $tabColor; font-size: 14px;width: 33%;text-align: left}
+    >span:nth-child(2){width: 33%;text-align: right}
+    >span:last-child{width: 33%;text-align: right}
+
+    img {
+      position: absolute;
+      left: 20px;
+      width: 12px;
+      bottom: 16px;
+    }
+
+    &.isRise {
+      color: $buyColor;
+    }
+
+    &.isDown {
+      color: $sellColor;
+
+      svg {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .current_price{color: #fff;}
+
+  .transition {
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+    overflow: hidden;
+  }
+
+  .reverse_style {
+    justify-content:flex-end;
+    li {
+      a {
+        font-size: 12px;
+        color: $sellColor;
+      }
+
+      &:first-child {
+        a {
+          border-top: 0;
+        }
+      }
+    }
+  }
+}
+
+.order_book_chart {
+  width: $sidebarWidth;
+  position: absolute;
+  top: 40px;
+  _bottom: 34px;
+  bottom:-3px;
+}
+
+.order_list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  flex: 1;
+  padding: 10px 20px;
+
+  li {
+    position: relative;
+    line-height: 16px;
+    font-size: 12px;
+    padding-bottom:5px;
+    svg {
+      position: absolute;
+      left: -14px;
+      width: 10px;
+      height: 8px;
+      top: 50%;
+      margin-top: -4px;
+    }
+
+    a {
+      display: flex;
+
+      span {
+        display: inline-block;
+        overflow: hidden;
+        width: 33%;
+        padding-right: 4px;
+        overflow: hidden;
+        color: $textColor;
+        text-align: right;
+      }
+      span:first-child{
+        text-align: left;
+        >i{
+          /*width: 16px;*/
+          /*height: 16px;*/
+          font-style: normal;
+          font-size: 12px;
+          color: #A9B2CC;
+         }
+      }
+      span:last-child {
+        padding-right: 0;
+      }
+    }
+  }
+}
+
+.merge_depth {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin: 6px 0;
+  font-size: 12px;
+  color: $textColor;
+  [class*="select_value"] {
+    height: 22px;
+    color: $textColor;
+    svg {
+      margin-top: -7px;
+      right: 4px;
+    }
+  }
+
+  [class*="select_item"] {
+    a {
+      text-align: center;
+
+      span {
+        color: $textColor;
+      }
+    }
+  }
+}
+
+.listTitle_sell >span {
+  width: 16px;height: 16px;background-color: #A52D40;border-radius: 2px;padding: 2px;
+}
+.listTitle_buy >span {
+  width: 16px;height: 16px;background-color: #0D7B5B;border-radius: 2px;padding: 2px;
+}

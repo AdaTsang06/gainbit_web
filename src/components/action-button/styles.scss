@@ -1,0 +1,49 @@
+@import "../../css/constants.scss";
+
+.action_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: $primaryColor;
+  font-size: 16px;
+
+  &:before {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    border: 0 none;
+    margin-right: 0;
+    transition: all 0.5s;
+  }
+
+  &_loading {
+    &:before {
+      width: 20px;
+      height: 20px;
+      border: 2px solid #99ccff;
+      border-top-color: white;
+      margin-right: 10px;
+      animation: rotating 1s infinite;
+    }
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+  }
+}
+
+@keyframes rotating {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}

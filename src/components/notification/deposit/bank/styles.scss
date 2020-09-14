@@ -1,0 +1,43 @@
+@import '../../../../css/constants.scss';
+.fiat {
+  padding: 0 30px 20px;
+
+  &_header {
+    font-size: 16px;
+    font-weight: normal;
+  }
+
+  &_table {
+    margin: 20px 0;
+    font-size: 14px;
+
+    /*&_line:nth-child(2n-1) {
+      background-color: #f4f6f9;
+    }*/
+
+    &_line {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 40px;
+      border-bottom:1px solid #2A3B5E;color: #fff;
+      text-align:right;
+
+      &_title {
+        width: 200px;
+        color: $tabColor;
+        text-align:left;
+      }
+    }
+  }
+
+  &_deposit_warning {
+     font-size: 12px;
+     color: #7180A0;
+     line-height: 22px;
+    white-space: pre-wrap;
+    font-family: "PingFang SC", “Segoe UI”, SegoeUI, “Microsoft YaHei”, 微软雅黑,
+      “Hiragino Sans GB”, “Heiti SC”, "Helvetica Neue", "Helvetica", "Arial",
+      sans-serif;
+  }
+}
