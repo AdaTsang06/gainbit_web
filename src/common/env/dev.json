@@ -1,5 +1,5 @@
 {
-  "apiUrl": "http://192.168.3.5:8080",
-  "wsUrl": "ws://192.168.3.5:8080/ws",
-  "CHART_URL": "http://192.168.3.7:8080/index.html"
+  "apiUrl": "https://www.goldlink.one:8080",
+  "wsUrl": "wss://www.goldlink.one:8080/ws",
+  "CHART_URL": "https://www.goldlink.one:8100/"
 }
