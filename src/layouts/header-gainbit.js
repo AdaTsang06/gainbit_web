@@ -73,9 +73,14 @@ class Header extends PureComponent {
     };
   }
   logout = () => {
-    this.props.dispatch({type:'Account/logout'})
+    // console.log('userinfo',this.props.userInfo)
+    // console.log(JSON.parse(sessionStorage.getItem('token')))
+    this.props.dispatch({type:'Account/logout',payload: {
+      ...this.props.userInfo,
+      token: JSON.parse(sessionStorage.getItem('token'))
+    }})
   }
-  
+
   componentWillMount(){
    this.getUnReadMsgCout(this.props.loggedIn);
   }
@@ -90,7 +95,7 @@ class Header extends PureComponent {
       }
     }
   }
-    
+
   getUnReadMsgCout = (loggedIn) => {
     const { dispatch } = this.props;
     if(loggedIn){

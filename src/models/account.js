@@ -1,6 +1,6 @@
 
 import { getSessionStore,setSessionStore,removeSessionStore } from '../utils/storage';
-import {login, register, sendRegisterCaptcha, changePw, retrievePasswordCaptcha, retrievePassword,
+import {login, logout, register, sendRegisterCaptcha, changePw, retrievePasswordCaptcha, retrievePassword,
    queryUnreadMsgCount, queryKycStatus, queryInviteInfo } from '../services/user';
 import { ret } from '../common/constants';
 import { position_status} from '../common/constant-enum';
@@ -89,26 +89,32 @@ export default {
     }
     ,
     *logout({payload},{call,put,select}){
-      yield put({type:'updateState',payload:{
-        loggedIn:false,
-        userInfo:{},
-        accountInfos:[],
-        balanceInfos:{},
-        currencyInfos:{},
-        token:''
-      }});
-      removeSessionStore('loggedIn');
-      removeSessionStore('userInfo');
-      removeSessionStore('accountInfos');
-      removeSessionStore('balanceInfos');
-      removeSessionStore('currencyInfos');
-      removeSessionStore('token');
-      removeSessionStore('warningLevel');
-      removeSessionStore('forceCloseLevel');
-      removeSessionStore('positionInfos');
-      yield put(routerRedux.push('/login')); 
-      yield put({ type: 'ws/wsClose' }); 
-      yield put({ type: 'ws/wsConnect' });
+      console.log('logout',payload)
+      // const res = yield call(logout, payload);
+      // if(res.ret === ret.ok) {
+        yield put({type:'updateState',payload:{
+          loggedIn:false,
+          userInfo:{},
+          accountInfos:[],
+          balanceInfos:{},
+          currencyInfos:{},
+          token:''
+        }});
+        removeSessionStore('loggedIn');
+        removeSessionStore('userInfo');
+        removeSessionStore('accountInfos');
+        removeSessionStore('balanceInfos');
+        removeSessionStore('currencyInfos');
+        removeSessionStore('token');
+        removeSessionStore('warningLevel');
+        removeSessionStore('forceCloseLevel');
+        removeSessionStore('positionInfos');
+        yield put(routerRedux.push('/login'));
+        yield put({ type: 'ws/wsClose' });
+        yield put({ type: 'ws/wsConnect' });
+      // } else {
+      //   yield put({type:'global/showErrorMessage',payload:{ret: res.ret, msg: res.msg}});
+      // }
     },
     *updateInviteCode({payload, callBack},{call,put,select}){
        if(payload){

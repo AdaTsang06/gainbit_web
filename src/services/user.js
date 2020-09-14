@@ -5,6 +5,12 @@ export async function login(payload) {
       body:payload
   });
 }
+export async function logout(payload) {
+  return request('/api/v1/user/loguout',{
+      method:'post',
+      body:payload
+  });
+}
 
 export async function register(payload) {
   return request('/api/v1/user/register',{
